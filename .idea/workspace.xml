@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7ffd5db-74d5-42d2-9a5d-f3eab2b9d73c" name="Changes" comment="char study">
-      <change afterPath="$PROJECT_DIR$/src/io/start/StreamStartMain1.java" afterDir="false" />
+    <list default="true" id="f7ffd5db-74d5-42d2-9a5d-f3eab2b9d73c" name="Changes" comment="i/o stream study">
+      <change afterPath="$PROJECT_DIR$/src/io/start/StreamStartMain3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,6 +40,8 @@
     "Application.EncodingMain2.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.StreamStartMain1.executor": "Run",
+    "Application.StreamStartMain2.executor": "Run",
+    "Application.StreamStartMain3.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -56,33 +58,7 @@
       <recent name="charset" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StreamStartMain2">
-    <configuration name="AvailableCharsetsMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="charset.AvailableCharsetsMain" />
-      <module name="java-adv2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="charset.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EncodingMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="charset.EncodingMain1" />
-      <module name="java-adv2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="charset.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.StreamStartMain4">
     <configuration name="EncodingMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="charset.EncodingMain2" />
       <module name="java-adv2" />
@@ -122,13 +98,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StreamStartMain3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.start.StreamStartMain3" />
+      <module name="java-adv2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.start.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamStartMain4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.start.StreamStartMain4" />
+      <module name="java-adv2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.start.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StreamStartMain4" />
+        <item itemvalue="Application.StreamStartMain3" />
         <item itemvalue="Application.StreamStartMain2" />
         <item itemvalue="Application.StreamStartMain1" />
         <item itemvalue="Application.EncodingMain2" />
-        <item itemvalue="Application.EncodingMain1" />
-        <item itemvalue="Application.AvailableCharsetsMain" />
       </list>
     </recent_temporary>
   </component>
@@ -196,12 +198,21 @@
       <option name="project" value="LOCAL" />
       <updated>1732784316748</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="i/o stream study">
+      <option name="closed" value="true" />
+      <created>1732785899741</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1732785899741</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
     <MESSAGE value="char study" />
-    <option name="LAST_COMMIT_MESSAGE" value="char study" />
+    <MESSAGE value="i/o stream study" />
+    <option name="LAST_COMMIT_MESSAGE" value="i/o stream study" />
   </component>
 </project>
