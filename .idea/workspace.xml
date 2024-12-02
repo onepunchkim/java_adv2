@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f7ffd5db-74d5-42d2-9a5d-f3eab2b9d73c" name="Changes" comment="i/o stream study">
-      <change afterPath="$PROJECT_DIR$/src/io/buffered/ReadFileV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/buffered/CreateFileV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/buffered/ReadFileV2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,9 +39,11 @@
     "Application.AvailableCharsetsMain.executor": "Run",
     "Application.ByteArrayStreamMain.executor": "Run",
     "Application.CreateFileV1.executor": "Run",
+    "Application.CreateFileV2.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.PrintStreamMain.executor": "Run",
     "Application.ReadFileV1.executor": "Run",
+    "Application.ReadFileV2.executor": "Run",
     "Application.StreamStartMain4.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -52,20 +55,12 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ReadFileV1">
-    <configuration name="ByteArrayStreamMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.start.ByteArrayStreamMain" />
-      <module name="java-adv2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.start.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="io.buffered" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ReadFileV2">
     <configuration name="CreateFileV1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.buffered.CreateFileV1" />
       <module name="java-adv2" />
@@ -79,12 +74,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintStreamMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.start.PrintStreamMain" />
+    <configuration name="CreateFileV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.buffered.CreateFileV2" />
       <module name="java-adv2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.start.*" />
+          <option name="PATTERN" value="io.buffered.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,6 +89,19 @@
     </configuration>
     <configuration name="ReadFileV1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.buffered.ReadFileV1" />
+      <module name="java-adv2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.buffered.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReadFileV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.buffered.ReadFileV2" />
       <module name="java-adv2" />
       <extension name="coverage">
         <pattern>
@@ -120,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReadFileV2" />
+        <item itemvalue="Application.CreateFileV2" />
         <item itemvalue="Application.ReadFileV1" />
         <item itemvalue="Application.CreateFileV1" />
         <item itemvalue="Application.StreamStartMain4" />
-        <item itemvalue="Application.PrintStreamMain" />
-        <item itemvalue="Application.ByteArrayStreamMain" />
       </list>
     </recent_temporary>
   </component>
@@ -184,7 +192,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733131616494</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="i/o stream study">
+      <option name="closed" value="true" />
+      <created>1733132182274</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1733132182274</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
