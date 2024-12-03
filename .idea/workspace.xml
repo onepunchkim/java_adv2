@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f7ffd5db-74d5-42d2-9a5d-f3eab2b9d73c" name="Changes" comment="i/o stream study">
-      <change afterPath="$PROJECT_DIR$/src/io/text/ReaderWriterMainV3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/text/ReaderWriterMainV4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,6 +50,7 @@
     "Application.ReaderWriterMainV1.executor": "Run",
     "Application.ReaderWriterMainV2.executor": "Run",
     "Application.ReaderWriterMainV3.executor": "Run",
+    "Application.ReaderWriterMainV4.executor": "Run",
     "Application.StreamStartMain4.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -67,20 +68,7 @@
       <recent name="io.buffered" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReaderWriterMainV3">
-    <configuration name="CreateFileV4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.buffered.CreateFileV4" />
-      <module name="java-adv2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.buffered.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ReaderWriterMainV4">
     <configuration name="ReadFileV4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.buffered.ReadFileV4" />
       <module name="java-adv2" />
@@ -133,13 +121,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ReaderWriterMainV4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.text.ReaderWriterMainV4" />
+      <module name="java-adv2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.text.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReaderWriterMainV4" />
         <item itemvalue="Application.ReaderWriterMainV3" />
         <item itemvalue="Application.ReaderWriterMainV2" />
         <item itemvalue="Application.ReaderWriterMainV1" />
         <item itemvalue="Application.ReadFileV4" />
-        <item itemvalue="Application.CreateFileV4" />
       </list>
     </recent_temporary>
   </component>
@@ -239,7 +240,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733212954924</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="i/o stream study">
+      <option name="closed" value="true" />
+      <created>1733214307927</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1733214307927</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
