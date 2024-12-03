@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f7ffd5db-74d5-42d2-9a5d-f3eab2b9d73c" name="Changes" comment="i/o stream study">
-      <change afterPath="$PROJECT_DIR$/src/io/buffered/CreateFileV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/io/buffered/ReadFileV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/buffered/CreateFileV3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,6 +39,7 @@
     "Application.ByteArrayStreamMain.executor": "Run",
     "Application.CreateFileV1.executor": "Run",
     "Application.CreateFileV2.executor": "Run",
+    "Application.CreateFileV3.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.PrintStreamMain.executor": "Run",
     "Application.ReadFileV1.executor": "Run",
@@ -61,8 +61,8 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.ReadFileV2">
-    <configuration name="CreateFileV1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.buffered.CreateFileV1" />
+    <configuration name="CreateFileV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.buffered.CreateFileV2" />
       <module name="java-adv2" />
       <extension name="coverage">
         <pattern>
@@ -74,8 +74,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreateFileV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.buffered.CreateFileV2" />
+    <configuration name="CreateFileV3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.buffered.CreateFileV3" />
       <module name="java-adv2" />
       <extension name="coverage">
         <pattern>
@@ -113,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamStartMain4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.start.StreamStartMain4" />
+    <configuration name="ReadFileV3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.buffered.ReadFileV3" />
       <module name="java-adv2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.start.*" />
+          <option name="PATTERN" value="io.buffered.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,10 +129,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.ReadFileV2" />
+        <item itemvalue="Application.ReadFileV3" />
+        <item itemvalue="Application.CreateFileV3" />
         <item itemvalue="Application.CreateFileV2" />
         <item itemvalue="Application.ReadFileV1" />
-        <item itemvalue="Application.CreateFileV1" />
-        <item itemvalue="Application.StreamStartMain4" />
       </list>
     </recent_temporary>
   </component>
