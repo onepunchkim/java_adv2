@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7ffd5db-74d5-42d2-9a5d-f3eab2b9d73c" name="Changes" comment="i/o stream study">
-      <change afterPath="$PROJECT_DIR$/src/io/buffered/CreateFileV3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="f7ffd5db-74d5-42d2-9a5d-f3eab2b9d73c" name="Changes" comment="i/o stream study" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,6 +41,7 @@
     "Application.PrintStreamMain.executor": "Run",
     "Application.ReadFileV1.executor": "Run",
     "Application.ReadFileV2.executor": "Run",
+    "Application.ReadFileV3.executor": "Run",
     "Application.StreamStartMain4.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -60,20 +58,7 @@
       <recent name="io.buffered" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReadFileV2">
-    <configuration name="CreateFileV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.buffered.CreateFileV2" />
-      <module name="java-adv2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.buffered.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ReadFileV4">
     <configuration name="CreateFileV3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.buffered.CreateFileV3" />
       <module name="java-adv2" />
@@ -87,8 +72,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReadFileV1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.buffered.ReadFileV1" />
+    <configuration name="CreateFileV4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.buffered.CreateFileV4" />
       <module name="java-adv2" />
       <extension name="coverage">
         <pattern>
@@ -126,13 +111,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ReadFileV4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.buffered.ReadFileV4" />
+      <module name="java-adv2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.buffered.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReadFileV4" />
+        <item itemvalue="Application.CreateFileV4" />
         <item itemvalue="Application.ReadFileV2" />
         <item itemvalue="Application.ReadFileV3" />
         <item itemvalue="Application.CreateFileV3" />
-        <item itemvalue="Application.CreateFileV2" />
-        <item itemvalue="Application.ReadFileV1" />
       </list>
     </recent_temporary>
   </component>
@@ -200,7 +198,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733132182274</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="i/o stream study">
+      <option name="closed" value="true" />
+      <created>1733209256035</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1733209256035</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
