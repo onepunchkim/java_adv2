@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f7ffd5db-74d5-42d2-9a5d-f3eab2b9d73c" name="Changes" comment="i/o stream study">
-      <change afterPath="$PROJECT_DIR$/src/io/text/ReaderWriterMainV1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/io/text/TextConst.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/text/ReaderWriterMainV2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/text/ReaderWriterMainV1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/text/ReaderWriterMainV1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,10 +61,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="io.text" />
       <recent name="io.buffered" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReaderWriterMainV1">
+  <component name="RunManager" selected="Application.ReaderWriterMainV2">
     <configuration name="CreateFileV4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.buffered.CreateFileV4" />
       <module name="java-adv2" />
@@ -81,19 +81,6 @@
     </configuration>
     <configuration name="ReadFileV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.buffered.ReadFileV2" />
-      <module name="java-adv2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.buffered.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReadFileV3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.buffered.ReadFileV3" />
       <module name="java-adv2" />
       <extension name="coverage">
         <pattern>
@@ -131,13 +118,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ReaderWriterMainV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.text.ReaderWriterMainV2" />
+      <module name="java-adv2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.text.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReaderWriterMainV2" />
         <item itemvalue="Application.ReaderWriterMainV1" />
         <item itemvalue="Application.ReadFileV4" />
         <item itemvalue="Application.CreateFileV4" />
         <item itemvalue="Application.ReadFileV2" />
-        <item itemvalue="Application.ReadFileV3" />
       </list>
     </recent_temporary>
   </component>
@@ -221,7 +221,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733209685632</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="i/o stream study">
+      <option name="closed" value="true" />
+      <created>1733212544809</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1733212544809</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
