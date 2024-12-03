@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f7ffd5db-74d5-42d2-9a5d-f3eab2b9d73c" name="Changes" comment="i/o stream study">
-      <change afterPath="$PROJECT_DIR$/src/io/text/ReaderWriterMainV4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/streams/DataStreamEtcMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/streams/PrintStreamEtcMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +42,9 @@
     "Application.CreateFileV2.executor": "Run",
     "Application.CreateFileV3.executor": "Run",
     "Application.CreateFileV4.executor": "Run",
+    "Application.DataStreamEtcMain.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.PrintStreamEtcMain.executor": "Run",
     "Application.PrintStreamMain.executor": "Run",
     "Application.ReadFileV1.executor": "Run",
     "Application.ReadFileV2.executor": "Run",
@@ -68,13 +71,13 @@
       <recent name="io.buffered" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReaderWriterMainV4">
-    <configuration name="ReadFileV4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.buffered.ReadFileV4" />
+  <component name="RunManager" selected="Application.DataStreamEtcMain">
+    <configuration name="DataStreamEtcMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.streams.DataStreamEtcMain" />
       <module name="java-adv2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.buffered.*" />
+          <option name="PATTERN" value="io.streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReaderWriterMainV1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.text.ReaderWriterMainV1" />
+    <configuration name="PrintStreamEtcMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.streams.PrintStreamEtcMain" />
       <module name="java-adv2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.text.*" />
+          <option name="PATTERN" value="io.streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DataStreamEtcMain" />
+        <item itemvalue="Application.PrintStreamEtcMain" />
         <item itemvalue="Application.ReaderWriterMainV4" />
         <item itemvalue="Application.ReaderWriterMainV3" />
         <item itemvalue="Application.ReaderWriterMainV2" />
-        <item itemvalue="Application.ReaderWriterMainV1" />
-        <item itemvalue="Application.ReadFileV4" />
       </list>
     </recent_temporary>
   </component>
@@ -248,7 +251,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733214307927</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="i/o stream study">
+      <option name="closed" value="true" />
+      <created>1733215471474</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1733215471474</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
