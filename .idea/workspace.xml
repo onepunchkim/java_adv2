@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f7ffd5db-74d5-42d2-9a5d-f3eab2b9d73c" name="Changes" comment="i/o stream study">
-      <change afterPath="$PROJECT_DIR$/src/io/streams/DataStreamEtcMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/io/streams/PrintStreamEtcMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/member/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/member/MemberConsoleMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/member/MemberRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/member/impl/MemoryMemberRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,6 +19,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -71,7 +74,7 @@
       <recent name="io.buffered" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DataStreamEtcMain">
+  <component name="RunManager" selected="Application.MemberConsoleMain">
     <configuration name="DataStreamEtcMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.streams.DataStreamEtcMain" />
       <module name="java-adv2" />
@@ -85,12 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintStreamEtcMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.streams.PrintStreamEtcMain" />
+    <configuration name="MemberConsoleMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.member.MemberConsoleMain" />
       <module name="java-adv2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.streams.*" />
+          <option name="PATTERN" value="io.member.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReaderWriterMainV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.text.ReaderWriterMainV2" />
+    <configuration name="PrintStreamEtcMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.streams.PrintStreamEtcMain" />
       <module name="java-adv2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.text.*" />
+          <option name="PATTERN" value="io.streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MemberConsoleMain" />
         <item itemvalue="Application.DataStreamEtcMain" />
         <item itemvalue="Application.PrintStreamEtcMain" />
         <item itemvalue="Application.ReaderWriterMainV4" />
         <item itemvalue="Application.ReaderWriterMainV3" />
-        <item itemvalue="Application.ReaderWriterMainV2" />
       </list>
     </recent_temporary>
   </component>
@@ -259,7 +262,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733215471474</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="i/o stream study">
+      <option name="closed" value="true" />
+      <created>1733216264803</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1733216264803</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
