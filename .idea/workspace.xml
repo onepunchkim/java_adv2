@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f7ffd5db-74d5-42d2-9a5d-f3eab2b9d73c" name="Changes" comment="ex member study">
-      <change afterPath="$PROJECT_DIR$/src/io/member/impl/FileMemberRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/member/impl/DataMemberRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/io/member/MemberConsoleMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/member/MemberConsoleMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -277,7 +276,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733217674486</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="ex member study">
+      <option name="closed" value="true" />
+      <created>1733298342074</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1733298342074</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
