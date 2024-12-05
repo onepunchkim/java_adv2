@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f7ffd5db-74d5-42d2-9a5d-f3eab2b9d73c" name="Changes" comment="ex member study">
-      <change afterPath="$PROJECT_DIR$/src/io/member/impl/ObjectMemberRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/file/NewFilesMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/file/OldFileMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/io/member/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/member/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/io/member/MemberConsoleMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/member/MemberConsoleMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,45 +35,48 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.AvailableCharsetsMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ByteArrayStreamMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CreateFileV1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CreateFileV2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CreateFileV3.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CreateFileV4.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DataStreamEtcMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MemberConsoleMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PrintStreamEtcMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PrintStreamMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReadFileV1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReadFileV2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReadFileV3.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReadFileV4.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReaderWriterMainV1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReaderWriterMainV2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReaderWriterMainV3.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReaderWriterMainV4.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StreamStartMain4.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/gurwl/java_practice/java-adv2/src/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AvailableCharsetsMain.executor": "Run",
+    "Application.ByteArrayStreamMain.executor": "Run",
+    "Application.CreateFileV1.executor": "Run",
+    "Application.CreateFileV2.executor": "Run",
+    "Application.CreateFileV3.executor": "Run",
+    "Application.CreateFileV4.executor": "Run",
+    "Application.DataStreamEtcMain.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.MemberConsoleMain.executor": "Run",
+    "Application.NewFilesMain.executor": "Run",
+    "Application.OldFileMain.executor": "Run",
+    "Application.PrintStreamEtcMain.executor": "Run",
+    "Application.PrintStreamMain.executor": "Run",
+    "Application.ReadFileV1.executor": "Run",
+    "Application.ReadFileV2.executor": "Run",
+    "Application.ReadFileV3.executor": "Run",
+    "Application.ReadFileV4.executor": "Run",
+    "Application.ReaderWriterMainV1.executor": "Run",
+    "Application.ReaderWriterMainV2.executor": "Run",
+    "Application.ReaderWriterMainV3.executor": "Run",
+    "Application.ReaderWriterMainV4.executor": "Run",
+    "Application.StreamStartMain4.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "C:/Users/gurwl/java_practice/java-adv2/src/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "vcs.Git"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="io.text" />
       <recent name="io.buffered" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MemberConsoleMain">
+  <component name="RunManager" selected="Application.NewFilesMain">
     <configuration name="DataStreamEtcMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.streams.DataStreamEtcMain" />
       <module name="java-adv2" />
@@ -101,6 +103,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NewFilesMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.file.NewFilesMain" />
+      <module name="java-adv2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.file.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OldFileMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.file.OldFileMain" />
+      <module name="java-adv2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.file.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PrintStreamEtcMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.streams.PrintStreamEtcMain" />
       <module name="java-adv2" />
@@ -114,39 +142,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReaderWriterMainV3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.text.ReaderWriterMainV3" />
-      <module name="java-adv2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.text.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReaderWriterMainV4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.text.ReaderWriterMainV4" />
-      <module name="java-adv2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.text.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NewFilesMain" />
+        <item itemvalue="Application.OldFileMain" />
         <item itemvalue="Application.MemberConsoleMain" />
         <item itemvalue="Application.DataStreamEtcMain" />
         <item itemvalue="Application.PrintStreamEtcMain" />
-        <item itemvalue="Application.ReaderWriterMainV4" />
-        <item itemvalue="Application.ReaderWriterMainV3" />
       </list>
     </recent_temporary>
   </component>
@@ -294,7 +296,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733299486720</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="ex member study">
+      <option name="closed" value="true" />
+      <created>1733302587731</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1733302587731</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
