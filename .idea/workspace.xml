@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f7ffd5db-74d5-42d2-9a5d-f3eab2b9d73c" name="Changes" comment="file study">
-      <change afterPath="$PROJECT_DIR$/src/io/file/NewFilePath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/file/ReadTextFileV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/file/ReadTextFileV2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,6 +56,7 @@
     "Application.ReadFileV2.executor": "Run",
     "Application.ReadFileV3.executor": "Run",
     "Application.ReadFileV4.executor": "Run",
+    "Application.ReadTextFileV1.executor": "Run",
     "Application.ReaderWriterMainV1.executor": "Run",
     "Application.ReaderWriterMainV2.executor": "Run",
     "Application.ReaderWriterMainV3.executor": "Run",
@@ -78,20 +80,7 @@
       <recent name="io.buffered" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NewFilePath">
-    <configuration name="MemberConsoleMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.member.MemberConsoleMain" />
-      <module name="java-adv2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.member.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ReadTextFileV2">
     <configuration name="NewFilePath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.file.NewFilePath" />
       <module name="java-adv2" />
@@ -118,19 +107,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OldFileMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.file.OldFileMain" />
-      <module name="java-adv2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.file.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="OldFilePath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.file.OldFilePath" />
       <module name="java-adv2" />
@@ -144,13 +120,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ReadTextFileV1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.file.ReadTextFileV1" />
+      <module name="java-adv2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.file.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReadTextFileV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.file.ReadTextFileV2" />
+      <module name="java-adv2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.file.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReadTextFileV2" />
+        <item itemvalue="Application.ReadTextFileV1" />
         <item itemvalue="Application.NewFilePath" />
         <item itemvalue="Application.OldFilePath" />
         <item itemvalue="Application.NewFilesMain" />
-        <item itemvalue="Application.OldFileMain" />
-        <item itemvalue="Application.MemberConsoleMain" />
       </list>
     </recent_temporary>
   </component>
@@ -322,7 +324,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733387461681</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="file study">
+      <option name="closed" value="true" />
+      <created>1733387882828</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1733387882828</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
