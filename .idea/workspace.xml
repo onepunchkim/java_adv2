@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7ffd5db-74d5-42d2-9a5d-f3eab2b9d73c" name="Changes" comment="ex member study">
-      <change afterPath="$PROJECT_DIR$/src/io/file/NewFilesMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/io/file/OldFileMain.java" afterDir="false" />
+    <list default="true" id="f7ffd5db-74d5-42d2-9a5d-f3eab2b9d73c" name="Changes" comment="file study">
+      <change afterPath="$PROJECT_DIR$/src/io/file/OldFilePath.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,6 +47,7 @@
     "Application.MemberConsoleMain.executor": "Run",
     "Application.NewFilesMain.executor": "Run",
     "Application.OldFileMain.executor": "Run",
+    "Application.OldFilePath.executor": "Run",
     "Application.PrintStreamEtcMain.executor": "Run",
     "Application.PrintStreamMain.executor": "Run",
     "Application.ReadFileV1.executor": "Run",
@@ -76,7 +76,7 @@
       <recent name="io.buffered" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NewFilesMain">
+  <component name="RunManager" selected="Application.OldFilePath">
     <configuration name="DataStreamEtcMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.streams.DataStreamEtcMain" />
       <module name="java-adv2" />
@@ -129,12 +129,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintStreamEtcMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.streams.PrintStreamEtcMain" />
+    <configuration name="OldFilePath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.file.OldFilePath" />
       <module name="java-adv2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.streams.*" />
+          <option name="PATTERN" value="io.file.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OldFilePath" />
         <item itemvalue="Application.NewFilesMain" />
         <item itemvalue="Application.OldFileMain" />
         <item itemvalue="Application.MemberConsoleMain" />
         <item itemvalue="Application.DataStreamEtcMain" />
-        <item itemvalue="Application.PrintStreamEtcMain" />
       </list>
     </recent_temporary>
   </component>
@@ -304,7 +304,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733302587731</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="file study">
+      <option name="closed" value="true" />
+      <created>1733386743128</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1733386743128</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -312,6 +320,7 @@
     <MESSAGE value="char study" />
     <MESSAGE value="i/o stream study" />
     <MESSAGE value="ex member study" />
-    <option name="LAST_COMMIT_MESSAGE" value="ex member study" />
+    <MESSAGE value="file study" />
+    <option name="LAST_COMMIT_MESSAGE" value="file study" />
   </component>
 </project>
