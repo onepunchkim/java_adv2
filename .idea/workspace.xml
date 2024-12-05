@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f7ffd5db-74d5-42d2-9a5d-f3eab2b9d73c" name="Changes" comment="file study">
-      <change afterPath="$PROJECT_DIR$/src/io/file/OldFilePath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/file/NewFilePath.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,6 +45,7 @@
     "Application.DataStreamEtcMain.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MemberConsoleMain.executor": "Run",
+    "Application.NewFilePath.executor": "Run",
     "Application.NewFilesMain.executor": "Run",
     "Application.OldFileMain.executor": "Run",
     "Application.OldFilePath.executor": "Run",
@@ -72,17 +73,18 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="io.file" />
       <recent name="io.text" />
       <recent name="io.buffered" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.OldFilePath">
-    <configuration name="DataStreamEtcMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.streams.DataStreamEtcMain" />
+  <component name="RunManager" selected="Application.NewFilePath">
+    <configuration name="MemberConsoleMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.member.MemberConsoleMain" />
       <module name="java-adv2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.streams.*" />
+          <option name="PATTERN" value="io.member.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MemberConsoleMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.member.MemberConsoleMain" />
+    <configuration name="NewFilePath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.file.NewFilePath" />
       <module name="java-adv2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.member.*" />
+          <option name="PATTERN" value="io.file.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NewFilePath" />
         <item itemvalue="Application.OldFilePath" />
         <item itemvalue="Application.NewFilesMain" />
         <item itemvalue="Application.OldFileMain" />
         <item itemvalue="Application.MemberConsoleMain" />
-        <item itemvalue="Application.DataStreamEtcMain" />
       </list>
     </recent_temporary>
   </component>
@@ -312,7 +314,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733386743128</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="file study">
+      <option name="closed" value="true" />
+      <created>1733387461681</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1733387461681</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
