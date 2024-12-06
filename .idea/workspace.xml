@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7ffd5db-74d5-42d2-9a5d-f3eab2b9d73c" name="Changes" comment="file study">
-      <change afterPath="$PROJECT_DIR$/src/io/file/ReadTextFileV1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/io/file/ReadTextFileV2.java" afterDir="false" />
+    <list default="true" id="f7ffd5db-74d5-42d2-9a5d-f3eab2b9d73c" name="Changes" comment="    file study">
+      <change afterPath="$PROJECT_DIR$/src/io/file/copy/CreateCopyFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/file/copy/FileCopyMainV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/file/copy/FileCopyMainV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/file/copy/FileCopyMainV3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,11 +41,15 @@
   "keyToString": {
     "Application.AvailableCharsetsMain.executor": "Run",
     "Application.ByteArrayStreamMain.executor": "Run",
+    "Application.CreateCopyFile.executor": "Run",
     "Application.CreateFileV1.executor": "Run",
     "Application.CreateFileV2.executor": "Run",
     "Application.CreateFileV3.executor": "Run",
     "Application.CreateFileV4.executor": "Run",
     "Application.DataStreamEtcMain.executor": "Run",
+    "Application.FileCopyMainV1.executor": "Run",
+    "Application.FileCopyMainV2.executor": "Run",
+    "Application.FileCopyMainV3.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MemberConsoleMain.executor": "Run",
     "Application.NewFilePath.executor": "Run",
@@ -57,6 +63,7 @@
     "Application.ReadFileV3.executor": "Run",
     "Application.ReadFileV4.executor": "Run",
     "Application.ReadTextFileV1.executor": "Run",
+    "Application.ReadTextFileV2.executor": "Run",
     "Application.ReaderWriterMainV1.executor": "Run",
     "Application.ReaderWriterMainV2.executor": "Run",
     "Application.ReaderWriterMainV3.executor": "Run",
@@ -75,18 +82,19 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="io.file.copy" />
       <recent name="io.file" />
       <recent name="io.text" />
       <recent name="io.buffered" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReadTextFileV2">
-    <configuration name="NewFilePath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.file.NewFilePath" />
+  <component name="RunManager" selected="Application.FileCopyMainV3">
+    <configuration name="CreateCopyFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.file.copy.CreateCopyFile" />
       <module name="java-adv2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.file.*" />
+          <option name="PATTERN" value="io.file.copy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NewFilesMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.file.NewFilesMain" />
+    <configuration name="FileCopyMainV1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.file.copy.FileCopyMainV1" />
       <module name="java-adv2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.file.*" />
+          <option name="PATTERN" value="io.file.copy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OldFilePath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.file.OldFilePath" />
+    <configuration name="FileCopyMainV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.file.copy.FileCopyMainV2" />
       <module name="java-adv2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.file.*" />
+          <option name="PATTERN" value="io.file.copy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,12 +128,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReadTextFileV1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.file.ReadTextFileV1" />
+    <configuration name="FileCopyMainV3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.file.copy.FileCopyMainV3" />
       <module name="java-adv2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.file.*" />
+          <option name="PATTERN" value="io.file.copy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FileCopyMainV3" />
+        <item itemvalue="Application.FileCopyMainV2" />
+        <item itemvalue="Application.FileCopyMainV1" />
+        <item itemvalue="Application.CreateCopyFile" />
         <item itemvalue="Application.ReadTextFileV2" />
-        <item itemvalue="Application.ReadTextFileV1" />
-        <item itemvalue="Application.NewFilePath" />
-        <item itemvalue="Application.OldFilePath" />
-        <item itemvalue="Application.NewFilesMain" />
       </list>
     </recent_temporary>
   </component>
@@ -332,7 +340,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733387882828</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="file study">
+      <option name="closed" value="true" />
+      <created>1733389286994</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1733389286994</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
