@@ -19,7 +19,7 @@ public class ResourceCloseMainV2 {
 
         try {
             resource1 = new ResourceV1("resource1");
-            resource2 = new ResourceV1("resource1");
+            resource2 = new ResourceV1("resource2");
 
             resource1.call();
             resource2.callEx(); //CallException
