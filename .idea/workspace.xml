@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f7ffd5db-74d5-42d2-9a5d-f3eab2b9d73c" name="Changes" comment="network study">
-      <change afterPath="$PROJECT_DIR$/src/network/tcp/v3/ClientV3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/network/tcp/v3/ServerV3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/network/tcp/v3/SessionV3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/network/tcp/autocloseable/CallException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/network/tcp/autocloseable/CloseException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/network/tcp/autocloseable/ResourceCloseMainV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/network/tcp/autocloseable/ResourceV1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,6 +44,7 @@
     "Application.ClientV1.executor": "Run",
     "Application.ClientV2-2.executor": "Run",
     "Application.ClientV2.executor": "Run",
+    "Application.ClientV3-2.executor": "Run",
     "Application.ClientV3.executor": "Run",
     "Application.CreateCopyFile.executor": "Run",
     "Application.CreateFileV1.executor": "Run",
@@ -96,7 +98,7 @@
       <recent name="io.text" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ClientV3-2">
+  <component name="RunManager" selected="Application.ResourceCloseMainV1">
     <configuration name="ClientV2-2" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="network.tcp.v2.ClientV2" />
       <module name="java-adv2" />
@@ -149,12 +151,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InetAddressMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="network.tcp.v1.InetAddressMain" />
+    <configuration name="ResourceCloseMainV1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="network.tcp.autocloseable.ResourceCloseMainV1" />
       <module name="java-adv2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="network.tcp.v1.*" />
+          <option name="PATTERN" value="network.tcp.autocloseable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -191,19 +193,19 @@
     <list>
       <item itemvalue="Application.ClientV2-2" />
       <item itemvalue="Application.ClientV3-2" />
+      <item itemvalue="Application.ResourceCloseMainV1" />
       <item itemvalue="Application.ClientV3" />
       <item itemvalue="Application.ServerV3" />
       <item itemvalue="Application.ClientV2" />
-      <item itemvalue="Application.InetAddressMain" />
       <item itemvalue="Application.ServerV2" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ClientV3" />
+        <item itemvalue="Application.ResourceCloseMainV1" />
         <item itemvalue="Application.ServerV3" />
+        <item itemvalue="Application.ClientV3" />
         <item itemvalue="Application.ClientV2" />
         <item itemvalue="Application.ServerV2" />
-        <item itemvalue="Application.InetAddressMain" />
       </list>
     </recent_temporary>
   </component>
@@ -423,7 +425,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733902194507</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="network study">
+      <option name="closed" value="true" />
+      <created>1733904798617</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1733904798617</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
