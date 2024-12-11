@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7ffd5db-74d5-42d2-9a5d-f3eab2b9d73c" name="Changes" comment="    file study">
-      <change afterPath="$PROJECT_DIR$/src/io/file/copy/CreateCopyFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/io/file/copy/FileCopyMainV1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/io/file/copy/FileCopyMainV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/io/file/copy/FileCopyMainV3.java" afterDir="false" />
+    <list default="true" id="f7ffd5db-74d5-42d2-9a5d-f3eab2b9d73c" name="Changes" comment="file study">
+      <change afterPath="$PROJECT_DIR$/src/network/tcp/v1/ClientV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/network/tcp/v1/ServerV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/MyLogger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,6 +40,7 @@
   "keyToString": {
     "Application.AvailableCharsetsMain.executor": "Run",
     "Application.ByteArrayStreamMain.executor": "Run",
+    "Application.ClientV1.executor": "Run",
     "Application.CreateCopyFile.executor": "Run",
     "Application.CreateFileV1.executor": "Run",
     "Application.CreateFileV2.executor": "Run",
@@ -68,6 +68,7 @@
     "Application.ReaderWriterMainV2.executor": "Run",
     "Application.ReaderWriterMainV3.executor": "Run",
     "Application.ReaderWriterMainV4.executor": "Run",
+    "Application.ServerV1.executor": "Run",
     "Application.StreamStartMain4.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -88,13 +89,13 @@
       <recent name="io.buffered" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FileCopyMainV3">
-    <configuration name="CreateCopyFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.file.copy.CreateCopyFile" />
+  <component name="RunManager" selected="Application.ClientV1">
+    <configuration name="ClientV1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="network.tcp.v1.ClientV1" />
       <module name="java-adv2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.file.copy.*" />
+          <option name="PATTERN" value="network.tcp.v1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,12 +142,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReadTextFileV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.file.ReadTextFileV2" />
+    <configuration name="ServerV1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="network.tcp.v1.ServerV1" />
       <module name="java-adv2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.file.*" />
+          <option name="PATTERN" value="network.tcp.v1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ClientV1" />
+        <item itemvalue="Application.ServerV1" />
         <item itemvalue="Application.FileCopyMainV3" />
         <item itemvalue="Application.FileCopyMainV2" />
         <item itemvalue="Application.FileCopyMainV1" />
-        <item itemvalue="Application.CreateCopyFile" />
-        <item itemvalue="Application.ReadTextFileV2" />
       </list>
     </recent_temporary>
   </component>
@@ -348,7 +349,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733389286994</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="file study">
+      <option name="closed" value="true" />
+      <created>1733473433210</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1733473433210</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
