@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7ffd5db-74d5-42d2-9a5d-f3eab2b9d73c" name="Changes" comment="file study">
-      <change afterPath="$PROJECT_DIR$/src/network/tcp/v1/ClientV1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/network/tcp/v1/ServerV1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/util/MyLogger.java" afterDir="false" />
+    <list default="true" id="f7ffd5db-74d5-42d2-9a5d-f3eab2b9d73c" name="Changes" comment="network study">
+      <change afterPath="$PROJECT_DIR$/src/network/tcp/v1/InetAddressMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,6 +48,7 @@
     "Application.FileCopyMainV1.executor": "Run",
     "Application.FileCopyMainV2.executor": "Run",
     "Application.FileCopyMainV3.executor": "Run",
+    "Application.InetAddressMain.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MemberConsoleMain.executor": "Run",
     "Application.NewFilePath.executor": "Run",
@@ -89,26 +88,13 @@
       <recent name="io.buffered" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ClientV1">
+  <component name="RunManager" selected="Application.InetAddressMain">
     <configuration name="ClientV1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="network.tcp.v1.ClientV1" />
       <module name="java-adv2" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="network.tcp.v1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FileCopyMainV1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.file.copy.FileCopyMainV1" />
-      <module name="java-adv2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.file.copy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,6 +128,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="InetAddressMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="network.tcp.v1.InetAddressMain" />
+      <module name="java-adv2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="network.tcp.v1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ServerV1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="network.tcp.v1.ServerV1" />
       <module name="java-adv2" />
@@ -157,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InetAddressMain" />
         <item itemvalue="Application.ClientV1" />
         <item itemvalue="Application.ServerV1" />
         <item itemvalue="Application.FileCopyMainV3" />
         <item itemvalue="Application.FileCopyMainV2" />
-        <item itemvalue="Application.FileCopyMainV1" />
       </list>
     </recent_temporary>
   </component>
@@ -357,7 +356,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733473433210</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="network study">
+      <option name="closed" value="true" />
+      <created>1733897173866</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1733897173866</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -366,6 +373,7 @@
     <MESSAGE value="i/o stream study" />
     <MESSAGE value="ex member study" />
     <MESSAGE value="file study" />
-    <option name="LAST_COMMIT_MESSAGE" value="file study" />
+    <MESSAGE value="network study" />
+    <option name="LAST_COMMIT_MESSAGE" value="network study" />
   </component>
 </project>
