@@ -94,21 +94,8 @@
       <recent name="io.file" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ResourceCloseMainV2">
+  <component name="RunManager" selected="Application.ResourceCloseMainV3">
     <configuration name="ClientV2-2" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="network.tcp.v2.ClientV2" />
-      <module name="java-adv2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="network.tcp.v2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ClientV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="network.tcp.v2.ClientV2" />
       <module name="java-adv2" />
       <extension name="coverage">
@@ -173,6 +160,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ResourceCloseMainV3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="network.tcp.autocloseable.ResourceCloseMainV3" />
+      <module name="java-adv2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="network.tcp.autocloseable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ServerV3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="network.tcp.v3.ServerV3" />
       <module name="java-adv2" />
@@ -191,17 +191,17 @@
       <item itemvalue="Application.ClientV3-2" />
       <item itemvalue="Application.ResourceCloseMainV1" />
       <item itemvalue="Application.ResourceCloseMainV2" />
+      <item itemvalue="Application.ResourceCloseMainV3" />
       <item itemvalue="Application.ClientV3" />
       <item itemvalue="Application.ServerV3" />
-      <item itemvalue="Application.ClientV2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ResourceCloseMainV3" />
         <item itemvalue="Application.ResourceCloseMainV2" />
         <item itemvalue="Application.ResourceCloseMainV1" />
         <item itemvalue="Application.ServerV3" />
         <item itemvalue="Application.ClientV3" />
-        <item itemvalue="Application.ClientV2" />
       </list>
     </recent_temporary>
   </component>
@@ -445,7 +445,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733906340156</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="network study">
+      <option name="closed" value="true" />
+      <created>1733906456813</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1733906456813</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
