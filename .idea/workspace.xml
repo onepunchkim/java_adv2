@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f7ffd5db-74d5-42d2-9a5d-f3eab2b9d73c" name="Changes" comment="network study">
-      <change afterPath="$PROJECT_DIR$/src/network/tcp/v2/ClientV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/network/tcp/v2/ServerV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/network/tcp/v3/ClientV3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/network/tcp/v3/ServerV3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/network/tcp/v3/SessionV3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,6 +41,9 @@
     "Application.AvailableCharsetsMain.executor": "Run",
     "Application.ByteArrayStreamMain.executor": "Run",
     "Application.ClientV1.executor": "Run",
+    "Application.ClientV2-2.executor": "Run",
+    "Application.ClientV2.executor": "Run",
+    "Application.ClientV3.executor": "Run",
     "Application.CreateCopyFile.executor": "Run",
     "Application.CreateFileV1.executor": "Run",
     "Application.CreateFileV2.executor": "Run",
@@ -69,6 +73,8 @@
     "Application.ReaderWriterMainV3.executor": "Run",
     "Application.ReaderWriterMainV4.executor": "Run",
     "Application.ServerV1.executor": "Run",
+    "Application.ServerV2.executor": "Run",
+    "Application.ServerV3.executor": "Run",
     "Application.StreamStartMain4.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -83,20 +89,20 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="network.tcp.v3" />
       <recent name="network.tcp.v2" />
       <recent name="io.file.copy" />
       <recent name="io.file" />
       <recent name="io.text" />
-      <recent name="io.buffered" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ClientV2">
-    <configuration name="ClientV1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="network.tcp.v1.ClientV1" />
+  <component name="RunManager" selected="Application.ClientV3-2">
+    <configuration name="ClientV2-2" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="network.tcp.v2.ClientV2" />
       <module name="java-adv2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="network.tcp.v1.*" />
+          <option name="PATTERN" value="network.tcp.v2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,12 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InetAddressMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="network.tcp.v1.InetAddressMain" />
+    <configuration name="ClientV3-2" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="network.tcp.v3.ClientV3" />
       <module name="java-adv2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="network.tcp.v1.*" />
+          <option name="PATTERN" value="network.tcp.v3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,8 +136,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ServerV1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="network.tcp.v1.ServerV1" />
+    <configuration name="ClientV3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="network.tcp.v3.ClientV3" />
+      <module name="java-adv2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="network.tcp.v3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InetAddressMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="network.tcp.v1.InetAddressMain" />
       <module name="java-adv2" />
       <extension name="coverage">
         <pattern>
@@ -156,13 +175,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ServerV3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="network.tcp.v3.ServerV3" />
+      <module name="java-adv2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="network.tcp.v3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.ClientV2-2" />
+      <item itemvalue="Application.ClientV3-2" />
+      <item itemvalue="Application.ClientV3" />
+      <item itemvalue="Application.ServerV3" />
+      <item itemvalue="Application.ClientV2" />
+      <item itemvalue="Application.InetAddressMain" />
+      <item itemvalue="Application.ServerV2" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ClientV3" />
+        <item itemvalue="Application.ServerV3" />
         <item itemvalue="Application.ClientV2" />
         <item itemvalue="Application.ServerV2" />
         <item itemvalue="Application.InetAddressMain" />
-        <item itemvalue="Application.ClientV1" />
-        <item itemvalue="Application.ServerV1" />
       </list>
     </recent_temporary>
   </component>
@@ -374,7 +415,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733898129066</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="network study">
+      <option name="closed" value="true" />
+      <created>1733902194507</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1733902194507</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
