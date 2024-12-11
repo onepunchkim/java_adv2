@@ -14,14 +14,14 @@ public class ResourceCloseMainV1 {
     }
 
     private static void logic() throws CallException, CloseException {
-        ResourceV1 resourceV1 = new ResourceV1("resource1");
-        ResourceV1 resourceV2 = new ResourceV1("resource2");
+        ResourceV1 resource1 = new ResourceV1("resource1");
+        ResourceV1 resource2 = new ResourceV1("resource2");
 
-        resourceV1.call();
-        resourceV2.callEx(); //CallException
+        resource1.call();
+        resource2.callEx(); //CallException
 
         System.out.println("자원 정리"); //호출 안됨
-        resourceV2.closeEx();
-        resourceV1.closeEx();
+        resource2.closeEx();
+        resource1.closeEx();
     }
 }
