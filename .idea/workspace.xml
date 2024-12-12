@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f7ffd5db-74d5-42d2-9a5d-f3eab2b9d73c" name="Changes" comment="network study">
-      <change afterPath="$PROJECT_DIR$/src/network/tcp/v5/ClientV5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/network/tcp/v5/ServerV5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/network/tcp/v5/SessionV5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/network/tcp/v6/ClientV6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/network/tcp/v6/ServerV6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/network/tcp/v6/SessionManagerV6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/network/tcp/v6/SessionV6.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,6 +48,7 @@
     "Application.ClientV3.executor": "Run",
     "Application.ClientV4.executor": "Run",
     "Application.ClientV5.executor": "Run",
+    "Application.ClientV6.executor": "Run",
     "Application.CreateCopyFile.executor": "Run",
     "Application.CreateFileV1.executor": "Run",
     "Application.CreateFileV2.executor": "Run",
@@ -84,6 +86,7 @@
     "Application.ServerV3.executor": "Run",
     "Application.ServerV4.executor": "Run",
     "Application.ServerV5.executor": "Run",
+    "Application.ServerV6.executor": "Run",
     "Application.StreamStartMain4.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -98,14 +101,14 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="network.tcp.v6" />
       <recent name="network.tcp.v5" />
       <recent name="network.tcp.v4" />
       <recent name="network.tcp.autocloseable" />
       <recent name="network.tcp.v3" />
-      <recent name="network.tcp.v2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ClientV5">
+  <component name="RunManager" selected="Application.ClientV6">
     <configuration name="ClientV2-2" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="network.tcp.v2.ClientV2" />
       <module name="java-adv2" />
@@ -158,25 +161,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ResourceCloseMainV4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="network.tcp.autocloseable.ResourceCloseMainV4" />
+    <configuration name="ClientV6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="network.tcp.v6.ClientV6" />
       <module name="java-adv2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="network.tcp.autocloseable.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ServerV4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="network.tcp.v4.ServerV4" />
-      <module name="java-adv2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="network.tcp.v4.*" />
+          <option name="PATTERN" value="network.tcp.v6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -197,22 +187,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ServerV6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="network.tcp.v6.ServerV6" />
+      <module name="java-adv2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="network.tcp.v6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.ClientV2-2" />
       <item itemvalue="Application.ClientV3-2" />
       <item itemvalue="Application.ClientV4" />
       <item itemvalue="Application.ClientV5" />
-      <item itemvalue="Application.ServerV4" />
+      <item itemvalue="Application.ClientV6" />
       <item itemvalue="Application.ServerV5" />
-      <item itemvalue="Application.ResourceCloseMainV4" />
+      <item itemvalue="Application.ServerV6" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ClientV6" />
+        <item itemvalue="Application.ServerV6" />
         <item itemvalue="Application.ClientV5" />
         <item itemvalue="Application.ServerV5" />
         <item itemvalue="Application.ClientV4" />
-        <item itemvalue="Application.ServerV4" />
-        <item itemvalue="Application.ResourceCloseMainV4" />
       </list>
     </recent_temporary>
   </component>
@@ -496,7 +499,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733991723750</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="network study">
+      <option name="closed" value="true" />
+      <created>1733992613698</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1733992613698</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
