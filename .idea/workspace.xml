@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f7ffd5db-74d5-42d2-9a5d-f3eab2b9d73c" name="Changes" comment="network study">
-      <change afterPath="$PROJECT_DIR$/src/network/tcp/SocketCloseUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/network/tcp/v4/ClientV4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/network/tcp/v4/ServerV4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/network/tcp/v4/SessionV4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/network/tcp/v5/ClientV5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/network/tcp/v5/ServerV5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/network/tcp/v5/SessionV5.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,72 +36,76 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.AvailableCharsetsMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ByteArrayStreamMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ClientV1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ClientV2-2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ClientV2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ClientV3-2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ClientV3.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CreateCopyFile.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CreateFileV1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CreateFileV2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CreateFileV3.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CreateFileV4.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DataStreamEtcMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FileCopyMainV1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FileCopyMainV2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FileCopyMainV3.executor&quot;: &quot;Run&quot;,
-    &quot;Application.InetAddressMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MemberConsoleMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NewFilePath.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NewFilesMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.OldFileMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.OldFilePath.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PrintStreamEtcMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PrintStreamMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReadFileV1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReadFileV2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReadFileV3.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReadFileV4.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReadTextFileV1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReadTextFileV2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReaderWriterMainV1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReaderWriterMainV2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReaderWriterMainV3.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReaderWriterMainV4.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ResourceCloseMainV1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ResourceCloseMainV2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ResourceCloseMainV3.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ResourceCloseMainV4.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ServerV1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ServerV2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ServerV3.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StreamStartMain4.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/gurwl/java_practice/java-adv2/src/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AvailableCharsetsMain.executor": "Run",
+    "Application.ByteArrayStreamMain.executor": "Run",
+    "Application.ClientV1.executor": "Run",
+    "Application.ClientV2-2.executor": "Run",
+    "Application.ClientV2.executor": "Run",
+    "Application.ClientV3-2.executor": "Run",
+    "Application.ClientV3.executor": "Run",
+    "Application.ClientV4.executor": "Run",
+    "Application.ClientV5.executor": "Run",
+    "Application.CreateCopyFile.executor": "Run",
+    "Application.CreateFileV1.executor": "Run",
+    "Application.CreateFileV2.executor": "Run",
+    "Application.CreateFileV3.executor": "Run",
+    "Application.CreateFileV4.executor": "Run",
+    "Application.DataStreamEtcMain.executor": "Run",
+    "Application.FileCopyMainV1.executor": "Run",
+    "Application.FileCopyMainV2.executor": "Run",
+    "Application.FileCopyMainV3.executor": "Run",
+    "Application.InetAddressMain.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.MemberConsoleMain.executor": "Run",
+    "Application.NewFilePath.executor": "Run",
+    "Application.NewFilesMain.executor": "Run",
+    "Application.OldFileMain.executor": "Run",
+    "Application.OldFilePath.executor": "Run",
+    "Application.PrintStreamEtcMain.executor": "Run",
+    "Application.PrintStreamMain.executor": "Run",
+    "Application.ReadFileV1.executor": "Run",
+    "Application.ReadFileV2.executor": "Run",
+    "Application.ReadFileV3.executor": "Run",
+    "Application.ReadFileV4.executor": "Run",
+    "Application.ReadTextFileV1.executor": "Run",
+    "Application.ReadTextFileV2.executor": "Run",
+    "Application.ReaderWriterMainV1.executor": "Run",
+    "Application.ReaderWriterMainV2.executor": "Run",
+    "Application.ReaderWriterMainV3.executor": "Run",
+    "Application.ReaderWriterMainV4.executor": "Run",
+    "Application.ResourceCloseMainV1.executor": "Run",
+    "Application.ResourceCloseMainV2.executor": "Run",
+    "Application.ResourceCloseMainV3.executor": "Run",
+    "Application.ResourceCloseMainV4.executor": "Run",
+    "Application.ServerV1.executor": "Run",
+    "Application.ServerV2.executor": "Run",
+    "Application.ServerV3.executor": "Run",
+    "Application.ServerV4.executor": "Run",
+    "Application.ServerV5.executor": "Run",
+    "Application.StreamStartMain4.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "C:/Users/gurwl/java_practice/java-adv2/src/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "vcs.Git"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="network.tcp.v5" />
       <recent name="network.tcp.v4" />
       <recent name="network.tcp.autocloseable" />
       <recent name="network.tcp.v3" />
       <recent name="network.tcp.v2" />
-      <recent name="io.file.copy" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ClientV4">
+  <component name="RunManager" selected="Application.ClientV5">
     <configuration name="ClientV2-2" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="network.tcp.v2.ClientV2" />
       <module name="java-adv2" />
@@ -142,25 +145,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ResourceCloseMainV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="network.tcp.autocloseable.ResourceCloseMainV2" />
+    <configuration name="ClientV5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="network.tcp.v5.ClientV5" />
       <module name="java-adv2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="network.tcp.autocloseable.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ResourceCloseMainV3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="network.tcp.autocloseable.ResourceCloseMainV3" />
-      <module name="java-adv2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="network.tcp.autocloseable.*" />
+          <option name="PATTERN" value="network.tcp.v5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -194,22 +184,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ServerV5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="network.tcp.v5.ServerV5" />
+      <module name="java-adv2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="network.tcp.v5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.ClientV2-2" />
       <item itemvalue="Application.ClientV3-2" />
       <item itemvalue="Application.ClientV4" />
+      <item itemvalue="Application.ClientV5" />
       <item itemvalue="Application.ServerV4" />
-      <item itemvalue="Application.ResourceCloseMainV2" />
-      <item itemvalue="Application.ResourceCloseMainV3" />
+      <item itemvalue="Application.ServerV5" />
       <item itemvalue="Application.ResourceCloseMainV4" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ClientV5" />
+        <item itemvalue="Application.ServerV5" />
         <item itemvalue="Application.ClientV4" />
         <item itemvalue="Application.ServerV4" />
         <item itemvalue="Application.ResourceCloseMainV4" />
-        <item itemvalue="Application.ResourceCloseMainV3" />
-        <item itemvalue="Application.ResourceCloseMainV2" />
       </list>
     </recent_temporary>
   </component>
@@ -485,7 +488,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733908131786</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="network study">
+      <option name="closed" value="true" />
+      <created>1733991723750</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1733991723750</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
