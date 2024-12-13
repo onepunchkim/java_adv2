@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f7ffd5db-74d5-42d2-9a5d-f3eab2b9d73c" name="Changes" comment="network study">
-      <change afterPath="$PROJECT_DIR$/src/network/tcp/v6/ClientV6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/network/tcp/v6/ServerV6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/network/tcp/v6/SessionManagerV6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/network/tcp/v6/SessionV6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/network/exception/connect/ConnectMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/network/exception/connect/ConnectTimeoutMain1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/network/exception/connect/ConnectTimeoutMain2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/network/exception/connect/SoTimeoutClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/network/exception/connect/SoTimeoutServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,6 +50,9 @@
     "Application.ClientV4.executor": "Run",
     "Application.ClientV5.executor": "Run",
     "Application.ClientV6.executor": "Run",
+    "Application.ConnectMain.executor": "Run",
+    "Application.ConnectTimeoutMain1.executor": "Run",
+    "Application.ConnectTimeoutMain2.executor": "Run",
     "Application.CreateCopyFile.executor": "Run",
     "Application.CreateFileV1.executor": "Run",
     "Application.CreateFileV2.executor": "Run",
@@ -87,6 +91,8 @@
     "Application.ServerV4.executor": "Run",
     "Application.ServerV5.executor": "Run",
     "Application.ServerV6.executor": "Run",
+    "Application.SoTimeoutClient.executor": "Run",
+    "Application.SoTimeoutServer.executor": "Run",
     "Application.StreamStartMain4.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -101,14 +107,14 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="network.exception.connect" />
       <recent name="network.tcp.v6" />
       <recent name="network.tcp.v5" />
       <recent name="network.tcp.v4" />
       <recent name="network.tcp.autocloseable" />
-      <recent name="network.tcp.v3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ClientV6">
+  <component name="RunManager" selected="Application.SoTimeoutClient">
     <configuration name="ClientV2-2" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="network.tcp.v2.ClientV2" />
       <module name="java-adv2" />
@@ -135,12 +141,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClientV4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="network.tcp.v4.ClientV4" />
+    <configuration name="ConnectMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="network.exception.connect.ConnectMain" />
       <module name="java-adv2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="network.tcp.v4.*" />
+          <option name="PATTERN" value="network.exception.connect.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,12 +154,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClientV5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="network.tcp.v5.ClientV5" />
+    <configuration name="ConnectTimeoutMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="network.exception.connect.ConnectTimeoutMain1" />
       <module name="java-adv2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="network.tcp.v5.*" />
+          <option name="PATTERN" value="network.exception.connect.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -161,12 +167,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClientV6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="network.tcp.v6.ClientV6" />
+    <configuration name="ConnectTimeoutMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="network.exception.connect.ConnectTimeoutMain2" />
       <module name="java-adv2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="network.tcp.v6.*" />
+          <option name="PATTERN" value="network.exception.connect.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -174,12 +180,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ServerV5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="network.tcp.v5.ServerV5" />
+    <configuration name="SoTimeoutClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="network.exception.connect.SoTimeoutClient" />
       <module name="java-adv2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="network.tcp.v5.*" />
+          <option name="PATTERN" value="network.exception.connect.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -187,12 +193,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ServerV6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="network.tcp.v6.ServerV6" />
+    <configuration name="SoTimeoutServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="network.exception.connect.SoTimeoutServer" />
       <module name="java-adv2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="network.tcp.v6.*" />
+          <option name="PATTERN" value="network.exception.connect.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -203,19 +209,19 @@
     <list>
       <item itemvalue="Application.ClientV2-2" />
       <item itemvalue="Application.ClientV3-2" />
-      <item itemvalue="Application.ClientV4" />
-      <item itemvalue="Application.ClientV5" />
-      <item itemvalue="Application.ClientV6" />
-      <item itemvalue="Application.ServerV5" />
-      <item itemvalue="Application.ServerV6" />
+      <item itemvalue="Application.ConnectMain" />
+      <item itemvalue="Application.ConnectTimeoutMain1" />
+      <item itemvalue="Application.ConnectTimeoutMain2" />
+      <item itemvalue="Application.SoTimeoutClient" />
+      <item itemvalue="Application.SoTimeoutServer" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ClientV6" />
-        <item itemvalue="Application.ServerV6" />
-        <item itemvalue="Application.ClientV5" />
-        <item itemvalue="Application.ServerV5" />
-        <item itemvalue="Application.ClientV4" />
+        <item itemvalue="Application.SoTimeoutClient" />
+        <item itemvalue="Application.SoTimeoutServer" />
+        <item itemvalue="Application.ConnectTimeoutMain2" />
+        <item itemvalue="Application.ConnectTimeoutMain1" />
+        <item itemvalue="Application.ConnectMain" />
       </list>
     </recent_temporary>
   </component>
@@ -507,7 +513,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733992613698</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="network study">
+      <option name="closed" value="true" />
+      <created>1733996597119</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1733996597119</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
