@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f7ffd5db-74d5-42d2-9a5d-f3eab2b9d73c" name="Changes" comment="network study">
-      <change afterPath="$PROJECT_DIR$/src/network/exception/close/normal/NormalCloseClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/network/exception/close/normal/NormalCloseServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/network/exception/close/reset/ResetCloseClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/network/exception/close/reset/ResetCloseServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,6 +64,8 @@
     "Application.MemberConsoleMain.executor": "Run",
     "Application.NewFilePath.executor": "Run",
     "Application.NewFilesMain.executor": "Run",
+    "Application.NormalCloseClient.executor": "Run",
+    "Application.NormalCloseServer.executor": "Run",
     "Application.OldFileMain.executor": "Run",
     "Application.OldFilePath.executor": "Run",
     "Application.PrintStreamEtcMain.executor": "Run",
@@ -78,6 +80,8 @@
     "Application.ReaderWriterMainV2.executor": "Run",
     "Application.ReaderWriterMainV3.executor": "Run",
     "Application.ReaderWriterMainV4.executor": "Run",
+    "Application.ResetCloseClient.executor": "Run",
+    "Application.ResetCloseServer.executor": "Run",
     "Application.ResourceCloseMainV1.executor": "Run",
     "Application.ResourceCloseMainV2.executor": "Run",
     "Application.ResourceCloseMainV3.executor": "Run",
@@ -111,7 +115,7 @@
       <recent name="network.tcp.autocloseable" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NormalCloseClient">
+  <component name="RunManager" selected="Application.ResetCloseClient">
     <configuration name="ClientV2-2" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="network.tcp.v2.ClientV2" />
       <module name="java-adv2" />
@@ -131,19 +135,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="network.tcp.v3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ConnectTimeoutMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="network.exception.connect.ConnectTimeoutMain2" />
-      <module name="java-adv2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="network.exception.connect.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -177,12 +168,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SoTimeoutClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="network.exception.connect.SoTimeoutClient" />
+    <configuration name="ResetCloseClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="network.exception.close.reset.ResetCloseClient" />
       <module name="java-adv2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="network.exception.connect.*" />
+          <option name="PATTERN" value="network.exception.close.reset.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -190,8 +181,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SoTimeoutServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="network.exception.connect.SoTimeoutServer" />
+    <configuration name="ResetCloseServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="network.exception.close.reset.ResetCloseServer" />
+      <module name="java-adv2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="network.exception.close.reset.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SoTimeoutClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="network.exception.connect.SoTimeoutClient" />
       <module name="java-adv2" />
       <extension name="coverage">
         <pattern>
@@ -206,19 +210,19 @@
     <list>
       <item itemvalue="Application.ClientV2-2" />
       <item itemvalue="Application.ClientV3-2" />
-      <item itemvalue="Application.ConnectTimeoutMain2" />
       <item itemvalue="Application.NormalCloseClient" />
       <item itemvalue="Application.NormalCloseServer" />
+      <item itemvalue="Application.ResetCloseClient" />
+      <item itemvalue="Application.ResetCloseServer" />
       <item itemvalue="Application.SoTimeoutClient" />
-      <item itemvalue="Application.SoTimeoutServer" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ResetCloseClient" />
+        <item itemvalue="Application.ResetCloseServer" />
         <item itemvalue="Application.NormalCloseClient" />
         <item itemvalue="Application.NormalCloseServer" />
         <item itemvalue="Application.SoTimeoutClient" />
-        <item itemvalue="Application.SoTimeoutServer" />
-        <item itemvalue="Application.ConnectTimeoutMain2" />
       </list>
     </recent_temporary>
   </component>
@@ -526,7 +530,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734078531127</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="network study">
+      <option name="closed" value="true" />
+      <created>1734081263342</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1734081263342</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
