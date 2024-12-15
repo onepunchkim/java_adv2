@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f7ffd5db-74d5-42d2-9a5d-f3eab2b9d73c" name="Changes" comment="chat study">
-      <change afterPath="$PROJECT_DIR$/src/chat/server/CommandManagerV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chat/server/CommandManagerV3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chat/server/command/ChangeCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chat/server/command/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chat/server/command/ExitCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chat/server/command/JoinCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chat/server/command/MessageCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chat/server/command/UsersCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/chat/server/ServerMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chat/server/ServerMain.java" afterDir="false" />
     </list>
@@ -39,7 +45,10 @@
   "keyToString": {
     "Application.AvailableCharsetsMain.executor": "Run",
     "Application.ByteArrayStreamMain.executor": "Run",
+    "Application.ClientMain-2-1.executor": "Run",
+    "Application.ClientMain-2-2.executor": "Run",
     "Application.ClientMain-2.executor": "Run",
+    "Application.ClientMain-3.executor": "Run",
     "Application.ClientMain.executor": "Run",
     "Application.ClientV1.executor": "Run",
     "Application.ClientV2-2.executor": "Run",
@@ -122,7 +131,33 @@
       <recent name="network.tcp.v4" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ClientMain-3">
+  <component name="RunManager" selected="Application.ClientMain-2-2">
+    <configuration name="ClientMain-2-1" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="chat.client.ClientMain" />
+      <module name="java-adv2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chat.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClientMain-2-2" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="chat.client.ClientMain" />
+      <module name="java-adv2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chat.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ClientMain-2" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="chat.client.ClientMain" />
       <module name="java-adv2" />
@@ -137,19 +172,6 @@
       </method>
     </configuration>
     <configuration name="ClientMain-3" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="chat.client.ClientMain" />
-      <module name="java-adv2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chat.client.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ClientMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chat.client.ClientMain" />
       <module name="java-adv2" />
       <extension name="coverage">
@@ -243,9 +265,9 @@
     <list>
       <item itemvalue="Application.ClientV2-2" />
       <item itemvalue="Application.ClientV3-2" />
-      <item itemvalue="Application.ClientMain-2" />
       <item itemvalue="Application.ClientMain-3" />
-      <item itemvalue="Application.ClientMain" />
+      <item itemvalue="Application.ClientMain-2-2" />
+      <item itemvalue="Application.ClientMain-2-1" />
       <item itemvalue="Application.ServerMain" />
       <item itemvalue="Application.NormalCloseClient" />
       <item itemvalue="Application.ResetCloseClient" />
@@ -253,8 +275,8 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ClientMain-2-1" />
         <item itemvalue="Application.ServerMain" />
-        <item itemvalue="Application.ClientMain" />
         <item itemvalue="Application.ResetCloseClient" />
         <item itemvalue="Application.ResetCloseServer" />
         <item itemvalue="Application.NormalCloseClient" />
@@ -597,7 +619,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734251247179</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="chat study">
+      <option name="closed" value="true" />
+      <created>1734252890321</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1734252890321</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
