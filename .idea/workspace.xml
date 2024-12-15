@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f7ffd5db-74d5-42d2-9a5d-f3eab2b9d73c" name="Changes" comment="chat study">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chat/server/CommandManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chat/server/CommandManagerV1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chat/server/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chat/server/ServerMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chat/server/Session.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chat/server/SessionManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chat/server/CommandManagerV2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chat/server/ServerMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chat/server/ServerMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +39,8 @@
   "keyToString": {
     "Application.AvailableCharsetsMain.executor": "Run",
     "Application.ByteArrayStreamMain.executor": "Run",
+    "Application.ClientMain-2.executor": "Run",
+    "Application.ClientMain.executor": "Run",
     "Application.ClientV1.executor": "Run",
     "Application.ClientV2-2.executor": "Run",
     "Application.ClientV2.executor": "Run",
@@ -91,6 +88,7 @@
     "Application.ResourceCloseMainV2.executor": "Run",
     "Application.ResourceCloseMainV3.executor": "Run",
     "Application.ResourceCloseMainV4.executor": "Run",
+    "Application.ServerMain.executor": "Run",
     "Application.ServerV1.executor": "Run",
     "Application.ServerV2.executor": "Run",
     "Application.ServerV3.executor": "Run",
@@ -117,14 +115,53 @@
       <recent name="chat.server" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="chat.server" />
       <recent name="network.exception.connect" />
       <recent name="network.tcp.v6" />
       <recent name="network.tcp.v5" />
       <recent name="network.tcp.v4" />
-      <recent name="network.tcp.autocloseable" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ResetCloseClient">
+  <component name="RunManager" selected="Application.ClientMain-3">
+    <configuration name="ClientMain-2" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="chat.client.ClientMain" />
+      <module name="java-adv2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chat.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClientMain-3" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="chat.client.ClientMain" />
+      <module name="java-adv2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chat.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClientMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chat.client.ClientMain" />
+      <module name="java-adv2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chat.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ClientV2-2" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="network.tcp.v2.ClientV2" />
       <module name="java-adv2" />
@@ -164,19 +201,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NormalCloseServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="network.exception.close.normal.NormalCloseServer" />
-      <module name="java-adv2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="network.exception.close.normal.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ResetCloseClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="network.exception.close.reset.ResetCloseClient" />
       <module name="java-adv2" />
@@ -203,12 +227,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SoTimeoutClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="network.exception.connect.SoTimeoutClient" />
+    <configuration name="ServerMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chat.server.ServerMain" />
       <module name="java-adv2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="network.exception.connect.*" />
+          <option name="PATTERN" value="chat.server.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -219,19 +243,21 @@
     <list>
       <item itemvalue="Application.ClientV2-2" />
       <item itemvalue="Application.ClientV3-2" />
+      <item itemvalue="Application.ClientMain-2" />
+      <item itemvalue="Application.ClientMain-3" />
+      <item itemvalue="Application.ClientMain" />
+      <item itemvalue="Application.ServerMain" />
       <item itemvalue="Application.NormalCloseClient" />
-      <item itemvalue="Application.NormalCloseServer" />
       <item itemvalue="Application.ResetCloseClient" />
       <item itemvalue="Application.ResetCloseServer" />
-      <item itemvalue="Application.SoTimeoutClient" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ServerMain" />
+        <item itemvalue="Application.ClientMain" />
         <item itemvalue="Application.ResetCloseClient" />
         <item itemvalue="Application.ResetCloseServer" />
         <item itemvalue="Application.NormalCloseClient" />
-        <item itemvalue="Application.NormalCloseServer" />
-        <item itemvalue="Application.SoTimeoutClient" />
       </list>
     </recent_temporary>
   </component>
@@ -563,7 +589,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734247373836</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="chat study">
+      <option name="closed" value="true" />
+      <created>1734251247179</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1734251247179</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
