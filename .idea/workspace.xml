@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f7ffd5db-74d5-42d2-9a5d-f3eab2b9d73c" name="Changes" comment="http study">
-      <change afterPath="$PROJECT_DIR$/src/was/v3/HttpRequsetHandlerV3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/was/v3/HttpServerV3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/was/v3/ServerMainV3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/was/v3/PercentEncodingMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/was/v2/ServerMainV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/was/v2/ServerMainV2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +72,7 @@
     "Application.NormalCloseServer.executor": "Run",
     "Application.OldFileMain.executor": "Run",
     "Application.OldFilePath.executor": "Run",
+    "Application.PercentEncodingMain.executor": "Run",
     "Application.PrintStreamEtcMain.executor": "Run",
     "Application.PrintStreamMain.executor": "Run",
     "Application.ReadFileV1.executor": "Run",
@@ -129,7 +127,7 @@
       <recent name="network.tcp.v6" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ServerMainV3">
+  <component name="RunManager" selected="Application.PercentEncodingMain">
     <configuration name="ClientMain-2-1" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="chat.client.ClientMain" />
       <module name="java-adv2" />
@@ -208,12 +206,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ResetCloseClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="network.exception.close.reset.ResetCloseClient" />
+    <configuration name="PercentEncodingMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="was.v3.PercentEncodingMain" />
       <module name="java-adv2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="network.exception.close.reset.*" />
+          <option name="PATTERN" value="was.v3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -266,19 +264,19 @@
       <item itemvalue="Application.ClientV3-2" />
       <item itemvalue="Application.ClientMain-3" />
       <item itemvalue="Application.ClientMain-2-2" />
+      <item itemvalue="Application.PercentEncodingMain" />
       <item itemvalue="Application.ServerMainV3" />
       <item itemvalue="Application.ServerMainV1" />
       <item itemvalue="Application.ClientMain-2-1" />
       <item itemvalue="Application.ServerMain" />
-      <item itemvalue="Application.ResetCloseClient" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PercentEncodingMain" />
         <item itemvalue="Application.ServerMainV3" />
         <item itemvalue="Application.ServerMainV1" />
         <item itemvalue="Application.ClientMain-2-1" />
         <item itemvalue="Application.ServerMain" />
-        <item itemvalue="Application.ResetCloseClient" />
       </list>
     </recent_temporary>
   </component>
@@ -658,7 +656,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735205172880</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="http study">
+      <option name="closed" value="true" />
+      <created>1735289282610</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1735289282610</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
