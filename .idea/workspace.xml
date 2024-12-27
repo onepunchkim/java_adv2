@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f7ffd5db-74d5-42d2-9a5d-f3eab2b9d73c" name="Changes" comment="http study">
-      <change afterPath="$PROJECT_DIR$/src/was/v2/HttpRequsetHandlerV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/was/v2/HttpServerV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/was/v2/ServerMainV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/was/v3/HttpRequsetHandlerV3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/was/v3/HttpServerV3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/was/v3/ServerMainV3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/was/v2/ServerMainV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/was/v2/ServerMainV2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,6 +95,7 @@
     "Application.ResourceCloseMainV4.executor": "Run",
     "Application.ServerMain.executor": "Run",
     "Application.ServerMainV1.executor": "Run",
+    "Application.ServerMainV3.executor": "Run",
     "Application.ServerV1.executor": "Run",
     "Application.ServerV2.executor": "Run",
     "Application.ServerV3.executor": "Run",
@@ -120,14 +122,14 @@
       <recent name="chat.server" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="was.v3" />
+      <recent name="was.v2" />
       <recent name="chat.server" />
       <recent name="network.exception.connect" />
       <recent name="network.tcp.v6" />
-      <recent name="network.tcp.v5" />
-      <recent name="network.tcp.v4" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ServerMainV1">
+  <component name="RunManager" selected="Application.ServerMainV3">
     <configuration name="ClientMain-2-1" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="chat.client.ClientMain" />
       <module name="java-adv2" />
@@ -219,19 +221,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ResetCloseServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="network.exception.close.reset.ResetCloseServer" />
-      <module name="java-adv2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="network.exception.close.reset.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ServerMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chat.server.ServerMain" />
       <module name="java-adv2" />
@@ -258,25 +247,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ServerMainV3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="was.v3.ServerMainV3" />
+      <module name="java-adv2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="was.v3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.ClientMain-2" />
       <item itemvalue="Application.ClientV2-2" />
       <item itemvalue="Application.ClientV3-2" />
       <item itemvalue="Application.ClientMain-3" />
       <item itemvalue="Application.ClientMain-2-2" />
+      <item itemvalue="Application.ServerMainV3" />
       <item itemvalue="Application.ServerMainV1" />
       <item itemvalue="Application.ClientMain-2-1" />
       <item itemvalue="Application.ServerMain" />
       <item itemvalue="Application.ResetCloseClient" />
-      <item itemvalue="Application.ResetCloseServer" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ServerMainV3" />
         <item itemvalue="Application.ServerMainV1" />
         <item itemvalue="Application.ClientMain-2-1" />
         <item itemvalue="Application.ServerMain" />
         <item itemvalue="Application.ResetCloseClient" />
-        <item itemvalue="Application.ResetCloseServer" />
       </list>
     </recent_temporary>
   </component>
@@ -648,7 +650,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735204434854</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="http study">
+      <option name="closed" value="true" />
+      <created>1735205172880</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1735205172880</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
