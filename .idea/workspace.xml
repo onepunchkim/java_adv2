@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7ffd5db-74d5-42d2-9a5d-f3eab2b9d73c" name="Changes" comment="http command study">
-      <change afterPath="$PROJECT_DIR$/src/reflection/BasicV1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reflection/BasicV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reflection/MethodV1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reflection/data/BasicData.java" afterDir="false" />
+    <list default="true" id="f7ffd5db-74d5-42d2-9a5d-f3eab2b9d73c" name="Changes" comment="reflection study">
+      <change afterPath="$PROJECT_DIR$/src/reflection/MethodV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reflection/MethodV3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reflection/data/Calculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,6 +70,9 @@
     "Application.InetAddressMain.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MemberConsoleMain.executor": "Run",
+    "Application.MethodV1.executor": "Run",
+    "Application.MethodV2.executor": "Run",
+    "Application.MethodV3.executor": "Run",
     "Application.NewFilePath.executor": "Run",
     "Application.NewFilesMain.executor": "Run",
     "Application.NormalCloseClient.executor": "Run",
@@ -134,7 +136,7 @@
       <recent name="was.v3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MethodV1">
+  <component name="RunManager" selected="Application.MethodV3">
     <configuration name="BasicV1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="reflection.BasicV1" />
       <module name="java-adv2" />
@@ -239,12 +241,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ServerMainV4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="was.v4.ServerMainV4" />
+    <configuration name="MethodV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="reflection.MethodV2" />
       <module name="java-adv2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="was.v4.*" />
+          <option name="PATTERN" value="reflection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -252,12 +254,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ServerMainV5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="was.v5.ServerMainV5" />
+    <configuration name="MethodV3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="reflection.MethodV3" />
       <module name="java-adv2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="was.v5.*" />
+          <option name="PATTERN" value="reflection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -274,16 +276,16 @@
       <item itemvalue="Application.BasicV1" />
       <item itemvalue="Application.BasicV2" />
       <item itemvalue="Application.MethodV1" />
-      <item itemvalue="Application.ServerMainV4" />
-      <item itemvalue="Application.ServerMainV5" />
+      <item itemvalue="Application.MethodV2" />
+      <item itemvalue="Application.MethodV3" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MethodV3" />
+        <item itemvalue="Application.MethodV2" />
         <item itemvalue="Application.MethodV1" />
         <item itemvalue="Application.BasicV2" />
         <item itemvalue="Application.BasicV1" />
-        <item itemvalue="Application.ServerMainV5" />
-        <item itemvalue="Application.ServerMainV4" />
       </list>
     </recent_temporary>
   </component>
@@ -302,14 +304,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1732539031810</updated>
-    </task>
-    <task id="LOCAL-00003" summary="char study">
-      <option name="closed" value="true" />
-      <created>1732698811132</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1732698811132</updated>
     </task>
     <task id="LOCAL-00004" summary="i/o stream study">
       <option name="closed" value="true" />
@@ -695,7 +689,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735464493500</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="reflection study">
+      <option name="closed" value="true" />
+      <created>1735635523292</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1735635523292</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -708,6 +710,7 @@
     <MESSAGE value="chat study" />
     <MESSAGE value="http study" />
     <MESSAGE value="http command study" />
-    <option name="LAST_COMMIT_MESSAGE" value="http command study" />
+    <MESSAGE value="reflection study" />
+    <option name="LAST_COMMIT_MESSAGE" value="reflection study" />
   </component>
 </project>
