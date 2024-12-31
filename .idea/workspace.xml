@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f7ffd5db-74d5-42d2-9a5d-f3eab2b9d73c" name="Changes" comment="http command study">
-      <change afterPath="$PROJECT_DIR$/src/was/httpserver/HttpRequsetHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reflection/BasicV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reflection/BasicV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reflection/MethodV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reflection/data/BasicData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,6 +40,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.AvailableCharsetsMain.executor": "Run",
+    "Application.BasicV1.executor": "Run",
+    "Application.BasicV2.executor": "Run",
     "Application.ByteArrayStreamMain.executor": "Run",
     "Application.ClientMain-2-1.executor": "Run",
     "Application.ClientMain-2-2.executor": "Run",
@@ -95,6 +100,7 @@
     "Application.ServerMainV1.executor": "Run",
     "Application.ServerMainV3.executor": "Run",
     "Application.ServerMainV4.executor": "Run",
+    "Application.ServerMainV5.executor": "Run",
     "Application.ServerV1.executor": "Run",
     "Application.ServerV2.executor": "Run",
     "Application.ServerV3.executor": "Run",
@@ -121,20 +127,33 @@
       <recent name="chat.server" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="was.v5" />
       <recent name="was.httpserver.servlet" />
       <recent name="was.httpserver" />
       <recent name="was.v4" />
       <recent name="was.v3" />
-      <recent name="was.v2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ServerMainV4">
-    <configuration name="ClientMain-2-1" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="chat.client.ClientMain" />
+  <component name="RunManager" selected="Application.MethodV1">
+    <configuration name="BasicV1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="reflection.BasicV1" />
       <module name="java-adv2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chat.client.*" />
+          <option name="PATTERN" value="reflection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BasicV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="reflection.BasicV2" />
+      <module name="java-adv2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="reflection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -207,38 +226,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PercentEncodingMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="was.v3.PercentEncodingMain" />
+    <configuration name="MethodV1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="reflection.MethodV1" />
       <module name="java-adv2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="was.v3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ServerMainV1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="was.v1.ServerMainV1" />
-      <module name="java-adv2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="was.v1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ServerMainV3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="was.v3.ServerMainV3" />
-      <module name="java-adv2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="was.v3.*" />
+          <option name="PATTERN" value="reflection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -259,25 +252,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ServerMainV5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="was.v5.ServerMainV5" />
+      <module name="java-adv2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="was.v5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.ClientMain-2" />
       <item itemvalue="Application.ClientV2-2" />
       <item itemvalue="Application.ClientV3-2" />
       <item itemvalue="Application.ClientMain-3" />
       <item itemvalue="Application.ClientMain-2-2" />
+      <item itemvalue="Application.BasicV1" />
+      <item itemvalue="Application.BasicV2" />
+      <item itemvalue="Application.MethodV1" />
       <item itemvalue="Application.ServerMainV4" />
-      <item itemvalue="Application.PercentEncodingMain" />
-      <item itemvalue="Application.ServerMainV3" />
-      <item itemvalue="Application.ServerMainV1" />
-      <item itemvalue="Application.ClientMain-2-1" />
+      <item itemvalue="Application.ServerMainV5" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MethodV1" />
+        <item itemvalue="Application.BasicV2" />
+        <item itemvalue="Application.BasicV1" />
+        <item itemvalue="Application.ServerMainV5" />
         <item itemvalue="Application.ServerMainV4" />
-        <item itemvalue="Application.PercentEncodingMain" />
-        <item itemvalue="Application.ServerMainV3" />
-        <item itemvalue="Application.ServerMainV1" />
-        <item itemvalue="Application.ClientMain-2-1" />
       </list>
     </recent_temporary>
   </component>
@@ -296,14 +302,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1732539031810</updated>
-    </task>
-    <task id="LOCAL-00002" summary="test">
-      <option name="closed" value="true" />
-      <created>1732539151434</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1732539151434</updated>
     </task>
     <task id="LOCAL-00003" summary="char study">
       <option name="closed" value="true" />
@@ -689,7 +687,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735463916451</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="http command study">
+      <option name="closed" value="true" />
+      <created>1735464493498</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1735464493500</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
