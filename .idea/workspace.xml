@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f7ffd5db-74d5-42d2-9a5d-f3eab2b9d73c" name="Changes" comment="reflection study">
-      <change afterPath="$PROJECT_DIR$/src/reflection/FieldV1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reflection/FieldV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reflection/data/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reflection/FieldUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reflection/FieldV3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reflection/data/Team.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,6 +66,7 @@
     "Application.DataStreamEtcMain.executor": "Run",
     "Application.FieldV1.executor": "Run",
     "Application.FieldV2.executor": "Run",
+    "Application.FieldV3.executor": "Run",
     "Application.FileCopyMainV1.executor": "Run",
     "Application.FileCopyMainV2.executor": "Run",
     "Application.FileCopyMainV3.executor": "Run",
@@ -138,7 +139,7 @@
       <recent name="was.v3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FieldV2">
+  <component name="RunManager" selected="Application.FieldV4">
     <configuration name="ClientMain-2-2" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="chat.client.ClientMain" />
       <module name="java-adv2" />
@@ -230,8 +231,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MethodV1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="reflection.MethodV1" />
+    <configuration name="FieldV3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="reflection.FieldV3" />
       <module name="java-adv2" />
       <extension name="coverage">
         <pattern>
@@ -243,8 +244,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MethodV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="reflection.MethodV2" />
+    <configuration name="FieldV4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="reflection.FieldV4" />
       <module name="java-adv2" />
       <extension name="coverage">
         <pattern>
@@ -277,17 +278,17 @@
       <item itemvalue="Application.ClientMain-2-2" />
       <item itemvalue="Application.FieldV1" />
       <item itemvalue="Application.FieldV2" />
-      <item itemvalue="Application.MethodV1" />
-      <item itemvalue="Application.MethodV2" />
+      <item itemvalue="Application.FieldV3" />
+      <item itemvalue="Application.FieldV4" />
       <item itemvalue="Application.MethodV3" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FieldV4" />
+        <item itemvalue="Application.FieldV3" />
         <item itemvalue="Application.FieldV2" />
         <item itemvalue="Application.FieldV1" />
         <item itemvalue="Application.MethodV3" />
-        <item itemvalue="Application.MethodV2" />
-        <item itemvalue="Application.MethodV1" />
       </list>
     </recent_temporary>
   </component>
@@ -306,14 +307,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1732539031810</updated>
-    </task>
-    <task id="LOCAL-00005" summary="i/o stream study">
-      <option name="closed" value="true" />
-      <created>1733131616494</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1733131616494</updated>
     </task>
     <task id="LOCAL-00006" summary="i/o stream study">
       <option name="closed" value="true" />
@@ -699,7 +692,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735637497435</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="reflection study">
+      <option name="closed" value="true" />
+      <created>1735638217305</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1735638217305</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
