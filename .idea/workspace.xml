@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f7ffd5db-74d5-42d2-9a5d-f3eab2b9d73c" name="Changes" comment="annotation study">
-      <change afterPath="$PROJECT_DIR$/src/annotation/basic/inherited/Child.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/annotation/basic/inherited/InheritedAnnotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/annotation/basic/inherited/InheritedMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/annotation/basic/inherited/NoInheritedAnnotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/annotation/basic/inherited/Parent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/annotation/basic/inherited/TestInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/annotation/basic/inherited/TestInterfaceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/annotation/validator/Team.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/annotation/validator/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/annotation/validator/ValidatorV1Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,6 +77,7 @@
     "Application.FileCopyMainV2.executor": "Run",
     "Application.FileCopyMainV3.executor": "Run",
     "Application.InetAddressMain.executor": "Run",
+    "Application.InheritedMain.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MemberConsoleMain.executor": "Run",
     "Application.MetaData.executor": "Run",
@@ -128,6 +125,7 @@
     "Application.SoTimeoutServer.executor": "Run",
     "Application.StreamStartMain4.executor": "Run",
     "Application.TestControllerMain.executor": "Run",
+    "Application.ValidatorV1Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -152,7 +150,7 @@
       <recent name="was.httpserver" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.InheritedMain">
+  <component name="RunManager" selected="Application.ValidatorV1Main">
     <configuration name="ClientMain-2-2" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="chat.client.ClientMain" />
       <module name="java-adv2" />
@@ -257,12 +255,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ServerMainV6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="was.v6.ServerMainV6" />
+    <configuration name="TestControllerMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="annotation.mapping.TestControllerMain" />
       <module name="java-adv2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="was.v6.*" />
+          <option name="PATTERN" value="annotation.mapping.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -270,12 +268,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestControllerMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="annotation.mapping.TestControllerMain" />
+    <configuration name="ValidatorV1Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="annotation.validator.ValidatorV1Main" />
       <module name="java-adv2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="annotation.mapping.*" />
+          <option name="PATTERN" value="annotation.validator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -292,16 +290,16 @@
       <item itemvalue="Application.ElementData1Main" />
       <item itemvalue="Application.InheritedMain" />
       <item itemvalue="Application.MetaData" />
-      <item itemvalue="Application.ServerMainV6" />
+      <item itemvalue="Application.ValidatorV1Main" />
       <item itemvalue="Application.TestControllerMain" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ValidatorV1Main" />
         <item itemvalue="Application.InheritedMain" />
         <item itemvalue="Application.MetaData" />
         <item itemvalue="Application.ElementData1Main" />
         <item itemvalue="Application.TestControllerMain" />
-        <item itemvalue="Application.ServerMainV6" />
       </list>
     </recent_temporary>
   </component>
@@ -320,14 +318,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1732539031810</updated>
-    </task>
-    <task id="LOCAL-00012" summary="i/o stream study">
-      <option name="closed" value="true" />
-      <created>1733215471474</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1733215471474</updated>
     </task>
     <task id="LOCAL-00013" summary="i/o stream study">
       <option name="closed" value="true" />
@@ -713,7 +703,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735895523278</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="annotation study">
+      <option name="closed" value="true" />
+      <created>1735896659430</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1735896659431</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
