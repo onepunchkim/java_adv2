@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f7ffd5db-74d5-42d2-9a5d-f3eab2b9d73c" name="Changes" comment="annotation study">
-      <change afterPath="$PROJECT_DIR$/src/annotation/validator/Team.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/annotation/validator/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/annotation/validator/ValidatorV1Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/annotation/validator/NotEmpty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/annotation/validator/Range.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/annotation/validator/Validator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/annotation/validator/ValidatorV2Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/annotation/validator/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/annotation/validator/Team.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/annotation/validator/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/annotation/validator/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +22,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
-        <option value="AnnotationType" />
         <option value="Interface" />
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -143,14 +146,14 @@
       <recent name="chat.server" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="annotation.validator" />
       <recent name="annotation.basic" />
       <recent name="reflection" />
       <recent name="was.v5" />
       <recent name="was.httpserver.servlet" />
-      <recent name="was.httpserver" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ValidatorV1Main">
+  <component name="RunManager" selected="Application.ValidatorV2Main">
     <configuration name="ClientMain-2-2" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="chat.client.ClientMain" />
       <module name="java-adv2" />
@@ -255,12 +258,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestControllerMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="annotation.mapping.TestControllerMain" />
+    <configuration name="ValidatorV1Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="annotation.validator.ValidatorV1Main" />
       <module name="java-adv2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="annotation.mapping.*" />
+          <option name="PATTERN" value="annotation.validator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -268,8 +271,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidatorV1Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="annotation.validator.ValidatorV1Main" />
+    <configuration name="ValidatorV2Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="annotation.validator.ValidatorV2Main" />
       <module name="java-adv2" />
       <extension name="coverage">
         <pattern>
@@ -291,15 +294,15 @@
       <item itemvalue="Application.InheritedMain" />
       <item itemvalue="Application.MetaData" />
       <item itemvalue="Application.ValidatorV1Main" />
-      <item itemvalue="Application.TestControllerMain" />
+      <item itemvalue="Application.ValidatorV2Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ValidatorV2Main" />
         <item itemvalue="Application.ValidatorV1Main" />
         <item itemvalue="Application.InheritedMain" />
         <item itemvalue="Application.MetaData" />
         <item itemvalue="Application.ElementData1Main" />
-        <item itemvalue="Application.TestControllerMain" />
       </list>
     </recent_temporary>
   </component>
@@ -318,14 +321,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1732539031810</updated>
-    </task>
-    <task id="LOCAL-00013" summary="i/o stream study">
-      <option name="closed" value="true" />
-      <created>1733216264803</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1733216264803</updated>
     </task>
     <task id="LOCAL-00014" summary="ex member study">
       <option name="closed" value="true" />
@@ -711,7 +706,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735896659431</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="annotation study">
+      <option name="closed" value="true" />
+      <created>1735897544993</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1735897544993</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
