@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f7ffd5db-74d5-42d2-9a5d-f3eab2b9d73c" name="Changes" comment="annotation study">
-      <change afterPath="$PROJECT_DIR$/src/annotation/basic/AnnoMeta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/annotation/basic/MetaData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/annotation/basic/inherited/Child.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/annotation/basic/inherited/InheritedAnnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/annotation/basic/inherited/InheritedMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/annotation/basic/inherited/NoInheritedAnnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/annotation/basic/inherited/Parent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/annotation/basic/inherited/TestInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/annotation/basic/inherited/TestInterfaceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,9 +22,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="package-info" />
         <option value="AnnotationType" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -147,7 +152,7 @@
       <recent name="was.httpserver" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MetaData">
+  <component name="RunManager" selected="Application.InheritedMain">
     <configuration name="ClientMain-2-2" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="chat.client.ClientMain" />
       <module name="java-adv2" />
@@ -213,12 +218,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConstructV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="reflection.ConstructV2" />
+    <configuration name="ElementData1Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="annotation.basic.ElementData1Main" />
       <module name="java-adv2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="reflection.*" />
+          <option name="PATTERN" value="annotation.basic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -226,12 +231,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ElementData1Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="annotation.basic.ElementData1Main" />
+    <configuration name="InheritedMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="annotation.basic.inherited.InheritedMain" />
       <module name="java-adv2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="annotation.basic.*" />
+          <option name="PATTERN" value="annotation.basic.inherited.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -285,18 +290,18 @@
       <item itemvalue="Application.ClientMain-3" />
       <item itemvalue="Application.ClientMain-2-2" />
       <item itemvalue="Application.ElementData1Main" />
+      <item itemvalue="Application.InheritedMain" />
       <item itemvalue="Application.MetaData" />
-      <item itemvalue="Application.ConstructV2" />
       <item itemvalue="Application.ServerMainV6" />
       <item itemvalue="Application.TestControllerMain" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InheritedMain" />
         <item itemvalue="Application.MetaData" />
         <item itemvalue="Application.ElementData1Main" />
         <item itemvalue="Application.TestControllerMain" />
         <item itemvalue="Application.ServerMainV6" />
-        <item itemvalue="Application.ConstructV2" />
       </list>
     </recent_temporary>
   </component>
@@ -315,14 +320,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1732539031810</updated>
-    </task>
-    <task id="LOCAL-00011" summary="i/o stream study">
-      <option name="closed" value="true" />
-      <created>1733214307927</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1733214307927</updated>
     </task>
     <task id="LOCAL-00012" summary="i/o stream study">
       <option name="closed" value="true" />
@@ -708,7 +705,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735894346884</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="annotation study">
+      <option name="closed" value="true" />
+      <created>1735895523278</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1735895523278</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
