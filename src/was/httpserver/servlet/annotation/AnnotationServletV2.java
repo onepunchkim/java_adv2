@@ -47,7 +47,7 @@ public class AnnotationServletV2 implements HttpServlet {
             } else if (parameterTypes[i] == HttpResponse.class) {
                 args[i] = response;
             } else {
-                throw new IllegalArgumentException("Unsupported parametertype: " + parameterTypes[i]);
+                throw new IllegalArgumentException("Unsupported parameter type: " + parameterTypes[i]);
             }
         }
 
