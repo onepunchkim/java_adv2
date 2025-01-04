@@ -21,22 +21,4 @@ public class ValidatorV2Main {
             log(e);
         }
     }
-
-    private static void validateUser(User user) {
-        if (user.getName() == null || user.getName().isEmpty()) {
-            throw new RuntimeException("이름이 비어있습니다.");
-        }
-        if (user.getAge() < 1 || user.getAge() > 100) {
-            throw new RuntimeException("나이는 1과 100 사이여야 합니다.");
-        }
-    }
-
-    private static void validateTeam(Team team) {
-        if (team.getName() == null || team.getName().isEmpty()) {
-            throw new RuntimeException("이름이 비어있습니다.");
-        }
-        if (team.getMemberCount() < 1 || team.getMemberCount() > 999) {
-            throw new RuntimeException("회원 수는 1과 999 사이여야 합니다.");
-        }
-    }
 }
