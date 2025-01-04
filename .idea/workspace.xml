@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7ffd5db-74d5-42d2-9a5d-f3eab2b9d73c" name="Changes" comment="http annotation study">
-      <change afterPath="$PROJECT_DIR$/src/was/httpserver/servlet/annotation/AnnotationServletV3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="f7ffd5db-74d5-42d2-9a5d-f3eab2b9d73c" name="Changes" comment="http annotation study" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -321,14 +318,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1732539031810</updated>
-    </task>
-    <task id="LOCAL-00020" summary="file study">
-      <option name="closed" value="true" />
-      <created>1733387882828</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1733387882828</updated>
     </task>
     <task id="LOCAL-00021" summary="file study">
       <option name="closed" value="true" />
@@ -714,7 +703,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735980315651</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="http annotation study">
+      <option name="closed" value="true" />
+      <created>1735981957140</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1735981957140</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
