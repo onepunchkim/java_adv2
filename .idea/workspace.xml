@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f7ffd5db-74d5-42d2-9a5d-f3eab2b9d73c" name="Changes" comment="annotation study">
-      <change afterPath="$PROJECT_DIR$/src/annotation/java/DeprecatedClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/annotation/java/DeprecatedMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/annotation/java/OverrideMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/annotation/java/SuppressWarningCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/was/httpserver/servlet/annotation/AnnotationServletV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/was/httpserver/servlet/annotation/Mapping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/was/v7/SearchControllerV7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/was/v7/ServerMainV7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/was/v7/SiteControllerV7.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -118,6 +119,7 @@
     "Application.ServerMainV4.executor": "Run",
     "Application.ServerMainV5.executor": "Run",
     "Application.ServerMainV6.executor": "Run",
+    "Application.ServerMainV7.executor": "Run",
     "Application.ServerV1.executor": "Run",
     "Application.ServerV2.executor": "Run",
     "Application.ServerV3.executor": "Run",
@@ -154,7 +156,7 @@
       <recent name="was.httpserver.servlet" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DeprecatedMain">
+  <component name="RunManager" selected="Application.ServerMainV7">
     <configuration name="ClientMain-2-2" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="chat.client.ClientMain" />
       <module name="java-adv2" />
@@ -233,12 +235,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InheritedMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="annotation.basic.inherited.InheritedMain" />
+    <configuration name="OverrideMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="annotation.java.OverrideMain" />
       <module name="java-adv2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="annotation.basic.inherited.*" />
+          <option name="PATTERN" value="annotation.java.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -246,12 +248,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OverrideMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="annotation.java.OverrideMain" />
+    <configuration name="ServerMainV7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="was.v7.ServerMainV7" />
       <module name="java-adv2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="annotation.java.*" />
+          <option name="PATTERN" value="was.v7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -293,17 +295,17 @@
       <item itemvalue="Application.ClientMain-2-2" />
       <item itemvalue="Application.DeprecatedMain" />
       <item itemvalue="Application.OverrideMain" />
-      <item itemvalue="Application.InheritedMain" />
+      <item itemvalue="Application.ServerMainV7" />
       <item itemvalue="Application.ValidatorV1Main" />
       <item itemvalue="Application.ValidatorV2Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ServerMainV7" />
         <item itemvalue="Application.DeprecatedMain" />
         <item itemvalue="Application.OverrideMain" />
         <item itemvalue="Application.ValidatorV2Main" />
         <item itemvalue="Application.ValidatorV1Main" />
-        <item itemvalue="Application.InheritedMain" />
       </list>
     </recent_temporary>
   </component>
@@ -322,14 +324,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1732539031810</updated>
-    </task>
-    <task id="LOCAL-00016" summary="ex member study">
-      <option name="closed" value="true" />
-      <created>1733299486720</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1733299486720</updated>
     </task>
     <task id="LOCAL-00017" summary="ex member study">
       <option name="closed" value="true" />
@@ -715,7 +709,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735973700934</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="annotation study">
+      <option name="closed" value="true" />
+      <created>1735976374009</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1735976374010</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
