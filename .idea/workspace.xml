@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7ffd5db-74d5-42d2-9a5d-f3eab2b9d73c" name="Changes" comment="annotation study">
-      <change afterPath="$PROJECT_DIR$/src/was/httpserver/servlet/annotation/AnnotationServletV1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/was/httpserver/servlet/annotation/Mapping.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/was/v7/SearchControllerV7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/was/v7/ServerMainV7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/was/v7/SiteControllerV7.java" afterDir="false" />
+    <list default="true" id="f7ffd5db-74d5-42d2-9a5d-f3eab2b9d73c" name="Changes" comment="http annotation study">
+      <change afterPath="$PROJECT_DIR$/src/was/httpserver/servlet/annotation/AnnotationServletV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/was/v8/SiteControllerV8.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -149,14 +146,14 @@
       <recent name="chat.server" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="was.httpserver.servlet.annotation" />
       <recent name="annotation.validator" />
       <recent name="annotation.basic" />
       <recent name="reflection" />
       <recent name="was.v5" />
-      <recent name="was.httpserver.servlet" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ServerMainV7">
+  <component name="RunManager" selected="Application.ServerMainV8">
     <configuration name="ClientMain-2-2" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="chat.client.ClientMain" />
       <module name="java-adv2" />
@@ -261,12 +258,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidatorV1Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="annotation.validator.ValidatorV1Main" />
+    <configuration name="ServerMainV8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="was.v8.ServerMainV8" />
       <module name="java-adv2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="annotation.validator.*" />
+          <option name="PATTERN" value="was.v8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -296,16 +293,16 @@
       <item itemvalue="Application.DeprecatedMain" />
       <item itemvalue="Application.OverrideMain" />
       <item itemvalue="Application.ServerMainV7" />
-      <item itemvalue="Application.ValidatorV1Main" />
+      <item itemvalue="Application.ServerMainV8" />
       <item itemvalue="Application.ValidatorV2Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ServerMainV8" />
         <item itemvalue="Application.ServerMainV7" />
         <item itemvalue="Application.DeprecatedMain" />
         <item itemvalue="Application.OverrideMain" />
         <item itemvalue="Application.ValidatorV2Main" />
-        <item itemvalue="Application.ValidatorV1Main" />
       </list>
     </recent_temporary>
   </component>
@@ -324,14 +321,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1732539031810</updated>
-    </task>
-    <task id="LOCAL-00017" summary="ex member study">
-      <option name="closed" value="true" />
-      <created>1733302587731</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1733302587731</updated>
     </task>
     <task id="LOCAL-00018" summary="file study">
       <option name="closed" value="true" />
@@ -717,7 +706,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735976374010</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="http annotation study">
+      <option name="closed" value="true" />
+      <created>1735979547046</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1735979547046</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -733,6 +730,7 @@
     <MESSAGE value="reflection study" />
     <MESSAGE value="reflection http study" />
     <MESSAGE value="annotation study" />
-    <option name="LAST_COMMIT_MESSAGE" value="annotation study" />
+    <MESSAGE value="http annotation study" />
+    <option name="LAST_COMMIT_MESSAGE" value="http annotation study" />
   </component>
 </project>
