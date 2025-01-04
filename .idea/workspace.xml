@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7ffd5db-74d5-42d2-9a5d-f3eab2b9d73c" name="Changes" comment="http annotation study">
-      <change afterPath="$PROJECT_DIR$/src/webservice/MemberController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webservice/MemberServiceMain.java" afterDir="false" />
+    <list default="true" id="f7ffd5db-74d5-42d2-9a5d-f3eab2b9d73c" name="Changes" comment="reflection http study">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/was/httpserver/HttpRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/was/httpserver/HttpRequest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,9 +16,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="package-info" />
         <option value="Interface" />
-        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -67,8 +64,6 @@
     "Application.CreateFileV3.executor": "Run",
     "Application.CreateFileV4.executor": "Run",
     "Application.DataStreamEtcMain.executor": "Run",
-    "Application.DeprecatedMain.executor": "Run",
-    "Application.ElementData1Main.executor": "Run",
     "Application.FieldV1.executor": "Run",
     "Application.FieldV2.executor": "Run",
     "Application.FieldV3.executor": "Run",
@@ -77,11 +72,9 @@
     "Application.FileCopyMainV2.executor": "Run",
     "Application.FileCopyMainV3.executor": "Run",
     "Application.InetAddressMain.executor": "Run",
-    "Application.InheritedMain.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MemberConsoleMain.executor": "Run",
     "Application.MemberServiceMain.executor": "Run",
-    "Application.MetaData.executor": "Run",
     "Application.MethodV1.executor": "Run",
     "Application.MethodV2.executor": "Run",
     "Application.MethodV3.executor": "Run",
@@ -91,7 +84,6 @@
     "Application.NormalCloseServer.executor": "Run",
     "Application.OldFileMain.executor": "Run",
     "Application.OldFilePath.executor": "Run",
-    "Application.OverrideMain.executor": "Run",
     "Application.PercentEncodingMain.executor": "Run",
     "Application.PrintStreamEtcMain.executor": "Run",
     "Application.PrintStreamMain.executor": "Run",
@@ -117,8 +109,6 @@
     "Application.ServerMainV4.executor": "Run",
     "Application.ServerMainV5.executor": "Run",
     "Application.ServerMainV6.executor": "Run",
-    "Application.ServerMainV7.executor": "Run",
-    "Application.ServerMainV8.executor": "Run",
     "Application.ServerV1.executor": "Run",
     "Application.ServerV2.executor": "Run",
     "Application.ServerV3.executor": "Run",
@@ -128,9 +118,6 @@
     "Application.SoTimeoutClient.executor": "Run",
     "Application.SoTimeoutServer.executor": "Run",
     "Application.StreamStartMain4.executor": "Run",
-    "Application.TestControllerMain.executor": "Run",
-    "Application.ValidatorV1Main.executor": "Run",
-    "Application.ValidatorV2Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -148,11 +135,11 @@
       <recent name="chat.server" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="was.httpserver.servlet.annotation" />
-      <recent name="was.v8" />
-      <recent name="annotation.validator" />
-      <recent name="annotation.basic" />
       <recent name="reflection" />
+      <recent name="was.v5" />
+      <recent name="was.httpserver.servlet" />
+      <recent name="was.httpserver" />
+      <recent name="was.v4" />
     </key>
   </component>
   <component name="RunManager" selected="Application.MemberServiceMain">
@@ -221,12 +208,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeprecatedMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="annotation.java.DeprecatedMain" />
+    <configuration name="ConstructV1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="reflection.ConstructV1" />
       <module name="java-adv2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="annotation.java.*" />
+          <option name="PATTERN" value="reflection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConstructV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="reflection.ConstructV2" />
+      <module name="java-adv2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="reflection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -247,12 +247,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OverrideMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="annotation.java.OverrideMain" />
+    <configuration name="ServerMainV6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="was.v6.ServerMainV6" />
       <module name="java-adv2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="annotation.java.*" />
+          <option name="PATTERN" value="was.v6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -260,25 +260,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ServerMainV7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="was.v7.ServerMainV7" />
+    <configuration name="TestControllerMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="annotation.mapping.TestControllerMain" />
       <module name="java-adv2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="was.v7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ServerMainV8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="was.v8.ServerMainV8" />
-      <module name="java-adv2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="was.v8.*" />
+          <option name="PATTERN" value="annotation.mapping.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -292,19 +279,19 @@
       <item itemvalue="Application.ClientV3-2" />
       <item itemvalue="Application.ClientMain-3" />
       <item itemvalue="Application.ClientMain-2-2" />
-      <item itemvalue="Application.DeprecatedMain" />
       <item itemvalue="Application.MemberServiceMain" />
-      <item itemvalue="Application.OverrideMain" />
-      <item itemvalue="Application.ServerMainV7" />
-      <item itemvalue="Application.ServerMainV8" />
+      <item itemvalue="Application.ConstructV1" />
+      <item itemvalue="Application.ConstructV2" />
+      <item itemvalue="Application.ServerMainV6" />
+      <item itemvalue="Application.TestControllerMain" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.MemberServiceMain" />
-        <item itemvalue="Application.ServerMainV8" />
-        <item itemvalue="Application.ServerMainV7" />
-        <item itemvalue="Application.DeprecatedMain" />
-        <item itemvalue="Application.OverrideMain" />
+        <item itemvalue="Application.TestControllerMain" />
+        <item itemvalue="Application.ServerMainV6" />
+        <item itemvalue="Application.ConstructV2" />
+        <item itemvalue="Application.ConstructV1" />
       </list>
     </recent_temporary>
   </component>
@@ -323,6 +310,118 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1732539031810</updated>
+    </task>
+    <task id="LOCAL-00009" summary="i/o stream study">
+      <option name="closed" value="true" />
+      <created>1733212544809</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1733212544809</updated>
+    </task>
+    <task id="LOCAL-00010" summary="i/o stream study">
+      <option name="closed" value="true" />
+      <created>1733212954924</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1733212954924</updated>
+    </task>
+    <task id="LOCAL-00011" summary="i/o stream study">
+      <option name="closed" value="true" />
+      <created>1733214307927</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1733214307927</updated>
+    </task>
+    <task id="LOCAL-00012" summary="i/o stream study">
+      <option name="closed" value="true" />
+      <created>1733215471474</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1733215471474</updated>
+    </task>
+    <task id="LOCAL-00013" summary="i/o stream study">
+      <option name="closed" value="true" />
+      <created>1733216264803</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1733216264803</updated>
+    </task>
+    <task id="LOCAL-00014" summary="ex member study">
+      <option name="closed" value="true" />
+      <created>1733217674486</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1733217674486</updated>
+    </task>
+    <task id="LOCAL-00015" summary="ex member study">
+      <option name="closed" value="true" />
+      <created>1733298342074</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1733298342074</updated>
+    </task>
+    <task id="LOCAL-00016" summary="ex member study">
+      <option name="closed" value="true" />
+      <created>1733299486720</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1733299486720</updated>
+    </task>
+    <task id="LOCAL-00017" summary="ex member study">
+      <option name="closed" value="true" />
+      <created>1733302587731</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1733302587731</updated>
+    </task>
+    <task id="LOCAL-00018" summary="file study">
+      <option name="closed" value="true" />
+      <created>1733386743128</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1733386743128</updated>
+    </task>
+    <task id="LOCAL-00019" summary="file study">
+      <option name="closed" value="true" />
+      <created>1733387461681</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1733387461681</updated>
+    </task>
+    <task id="LOCAL-00020" summary="file study">
+      <option name="closed" value="true" />
+      <created>1733387882828</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1733387882828</updated>
+    </task>
+    <task id="LOCAL-00021" summary="file study">
+      <option name="closed" value="true" />
+      <created>1733389286994</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1733389286994</updated>
+    </task>
+    <task id="LOCAL-00022" summary="file study">
+      <option name="closed" value="true" />
+      <created>1733473433210</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1733473433210</updated>
     </task>
     <task id="LOCAL-00023" summary="network study">
       <option name="closed" value="true" />
@@ -604,119 +703,7 @@
       <option name="project" value="LOCAL" />
       <updated>1735810093027</updated>
     </task>
-    <task id="LOCAL-00058" summary="annotation study">
-      <option name="closed" value="true" />
-      <created>1735811641451</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1735811641451</updated>
-    </task>
-    <task id="LOCAL-00059" summary="annotation study">
-      <option name="closed" value="true" />
-      <created>1735894346883</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1735894346884</updated>
-    </task>
-    <task id="LOCAL-00060" summary="annotation study">
-      <option name="closed" value="true" />
-      <created>1735895523278</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1735895523278</updated>
-    </task>
-    <task id="LOCAL-00061" summary="annotation study">
-      <option name="closed" value="true" />
-      <created>1735896659430</created>
-      <option name="number" value="00061" />
-      <option name="presentableId" value="LOCAL-00061" />
-      <option name="project" value="LOCAL" />
-      <updated>1735896659431</updated>
-    </task>
-    <task id="LOCAL-00062" summary="annotation study">
-      <option name="closed" value="true" />
-      <created>1735897544993</created>
-      <option name="number" value="00062" />
-      <option name="presentableId" value="LOCAL-00062" />
-      <option name="project" value="LOCAL" />
-      <updated>1735897544993</updated>
-    </task>
-    <task id="LOCAL-00063" summary="annotation study">
-      <option name="closed" value="true" />
-      <created>1735898866679</created>
-      <option name="number" value="00063" />
-      <option name="presentableId" value="LOCAL-00063" />
-      <option name="project" value="LOCAL" />
-      <updated>1735898866679</updated>
-    </task>
-    <task id="LOCAL-00064" summary="annotation study">
-      <option name="closed" value="true" />
-      <created>1735973700934</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1735973700934</updated>
-    </task>
-    <task id="LOCAL-00065" summary="annotation study">
-      <option name="closed" value="true" />
-      <created>1735976374009</created>
-      <option name="number" value="00065" />
-      <option name="presentableId" value="LOCAL-00065" />
-      <option name="project" value="LOCAL" />
-      <updated>1735976374010</updated>
-    </task>
-    <task id="LOCAL-00066" summary="http annotation study">
-      <option name="closed" value="true" />
-      <created>1735979547046</created>
-      <option name="number" value="00066" />
-      <option name="presentableId" value="LOCAL-00066" />
-      <option name="project" value="LOCAL" />
-      <updated>1735979547046</updated>
-    </task>
-    <task id="LOCAL-00067" summary="http annotation study">
-      <option name="closed" value="true" />
-      <created>1735980194663</created>
-      <option name="number" value="00067" />
-      <option name="presentableId" value="LOCAL-00067" />
-      <option name="project" value="LOCAL" />
-      <updated>1735980194663</updated>
-    </task>
-    <task id="LOCAL-00068" summary="http annotation study">
-      <option name="closed" value="true" />
-      <created>1735980315651</created>
-      <option name="number" value="00068" />
-      <option name="presentableId" value="LOCAL-00068" />
-      <option name="project" value="LOCAL" />
-      <updated>1735980315651</updated>
-    </task>
-    <task id="LOCAL-00069" summary="http annotation study">
-      <option name="closed" value="true" />
-      <created>1735981957140</created>
-      <option name="number" value="00069" />
-      <option name="presentableId" value="LOCAL-00069" />
-      <option name="project" value="LOCAL" />
-      <updated>1735981957140</updated>
-    </task>
-    <task id="LOCAL-00070" summary="http annotation study">
-      <option name="closed" value="true" />
-      <created>1735982256298</created>
-      <option name="number" value="00070" />
-      <option name="presentableId" value="LOCAL-00070" />
-      <option name="project" value="LOCAL" />
-      <updated>1735982256298</updated>
-    </task>
-    <task id="LOCAL-00071" summary="http annotation study">
-      <option name="closed" value="true" />
-      <created>1735982408447</created>
-      <option name="number" value="00071" />
-      <option name="presentableId" value="LOCAL-00071" />
-      <option name="project" value="LOCAL" />
-      <updated>1735982408447</updated>
-    </task>
-    <option name="localTasksCounter" value="72" />
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -731,8 +718,6 @@
     <MESSAGE value="http command study" />
     <MESSAGE value="reflection study" />
     <MESSAGE value="reflection http study" />
-    <MESSAGE value="annotation study" />
-    <MESSAGE value="http annotation study" />
-    <option name="LAST_COMMIT_MESSAGE" value="http annotation study" />
+    <option name="LAST_COMMIT_MESSAGE" value="reflection http study" />
   </component>
 </project>
